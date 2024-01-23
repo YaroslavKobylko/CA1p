@@ -1,0 +1,58 @@
+@import '../../../variables';
+
+.customerframe,
+.customerframe * {
+  box-sizing: border-box;
+}
+.customerframe {
+  width: 1280px;
+  height: 1148px;
+  position: relative;
+}
+
+.customer-main,
+.customer-main * {
+  box-sizing: border-box;
+}
+.customer-main-container {
+  background: $page-color;
+  width: 1440px;
+  height: 1404px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $page-color;
+}
+
+.customersvg1container,
+.customersvg1-container * {
+  box-sizing: border-box;
+}
+.customersvg1-container {
+  width: 280px;
+  height: 270px;
+  position: relative;
+  overflow: visible;
+  margin: -256px 20px 20px 1080px;
+  overflow: hidden
+}
+
+.customersvg2container,
+.customersvg2-container * {
+  box-sizing: border-box;
+}
+.customersvg2-container {
+  width: 280px;
+  height: 270px;
+  position: relative;
+  overflow: visible;
+  margin: 894px 0px 20px -160px;
+  overflow: hidden
+}

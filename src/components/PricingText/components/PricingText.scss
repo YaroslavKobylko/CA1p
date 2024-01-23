@@ -1,0 +1,63 @@
+.pricingframetext,
+.pricingframetext * {
+  box-sizing: border-box;
+}
+.pricingframetext {
+  width: 768px;
+  height: 156px;
+  position: relative;
+  padding-top: 128px;
+}
+.pricingframe2text {
+  width: 77px;
+  height: 32px;
+  position: absolute;
+  left: calc(50% - 38px);
+  top: 0px;
+}
+.pricingrectangletext {
+  background: #ddf0a7;
+  border-radius: 64px;
+  height: 32px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+.pricingpricingtext {
+  color: #162e3c;
+  text-align: center;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 26.5px);
+  top: 4px;
+  width: 53px;
+}
+.pricingpricing-planstext {
+  color: #162e3c;
+  text-align: center;
+  font-family: "Fraunces-Regular", sans-serif;
+  font-size: 48px;
+  line-height: 57.6px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 159px);
+  top: 47px;
+  width: 319px;
+}
+.pricingsuspendisse-mattis-porttitor-gravida-et-malesuada-famestext {
+  color: #49616e;
+  text-align: center;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 250px);
+  top: 129px;
+  width: 500px;
+}

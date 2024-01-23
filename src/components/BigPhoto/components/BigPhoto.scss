@@ -1,0 +1,84 @@
+.BigPhotoframe,
+.BigPhotoframe * {
+  box-sizing: border-box;
+}
+.BigPhotoframe {
+  width: 1440px;
+  height: 640px;
+  position: relative;
+  background-color: white;
+}
+.BigPhotorectangle {
+  background: #162e3c;
+  height: 320px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+.BigPhotoframe2 {
+  width: 1280px;
+  height: 640px;
+  position: absolute;
+  left: calc(50% - 640px);
+  top: calc(50% - 320px);
+  overflow: hidden;
+}
+.BigPhotorectangle2 {
+  border-radius: 32px;
+  height: 640px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+.BigPhotoimage {
+  width: 1280px;
+  height: 854px;
+  position: absolute;
+  left: calc(50% - 640px);
+  top: calc(50% - 427px);
+  object-fit: cover;
+}
+.BigPhotoframe3 {
+  height: 52px;
+  position: absolute;
+  right: 42.42%;
+  left: 39.38%;
+  width: 18.2%;
+  top: 274px;
+}
+.BigPhotorectangle3 {
+  background: #ddf0a7;
+  border-radius: 64px;
+  border-style: solid;
+  border-color: #ddf0a7;
+  border-width: 2px;
+  height: 52px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+.BigPhotowatch-introduction {
+  color: #162e3c;
+  text-align: center;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 74.5px);
+  top: 14px;
+  width: 149px;
+}
+.BigPhotorectangle4 {
+  width: 1280px;
+  height: 640px;
+  position: absolute;
+  left: calc(50% - 640px);
+  top: calc(50% - 320px);
+}

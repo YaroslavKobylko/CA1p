@@ -1,0 +1,255 @@
+@import '../../../variables';
+
+.straightframe2 {
+    height: 486px;
+    position: absolute;
+    right: 53.12%;
+    left: 0%;
+    width: 46.88%;
+    top: 57px;
+  }
+  .straightframe3 {
+    height: 32px;
+    position: absolute;
+    right: 85.33%;
+    left: 0%;
+    width: 14.67%;
+    top: 0px;
+  }
+  .straightrectangle {
+    background: $primary-color;
+    border-radius: 64px;
+    height: 32px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+  }
+  .straightefficient {
+    color: $page-color;
+    text-align: left;
+    font-family: "SpaceGrotesk-Bold", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    position: absolute;
+    right: 13.64%;
+    left: 13.64%;
+    width: 72.73%;
+    top: 4px;
+  }
+  .straightframe4 {
+    height: 204px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 206px;
+  }
+  .straightframe5 {
+    height: 188px;
+    position: absolute;
+    right: 52%;
+    left: 0%;
+    width: 48%;
+    top: 8px;
+  }
+  .straightframe6 {
+    height: 56px;
+    position: absolute;
+    right: 80.56%;
+    left: 0%;
+    width: 19.44%;
+    top: 0px;
+  }
+  .straightrectangle2 {
+    background: $primary-color;
+    border-radius: 16px;
+    height: 56px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+  }
+  .straightimage-2 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    object-fit: cover;
+  }
+  .straightno-meetings {
+    color: $page-color;
+    text-align: left;
+    font-family: "Fraunces-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    position: absolute;
+    right: 57.29%;
+    left: 0%;
+    width: 42.71%;
+    top: 72px;
+  }
+  .straightporta{
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 0.69%;
+    left: 0%;
+    width: 99.31%;
+    top: 117px;
+  }
+  .straightframe7 {
+    height: 188px;
+    position: absolute;
+    right: 0%;
+    left: 52%;
+    width: 48%;
+    top: 8px;
+  }
+  .straightimage-3 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    object-fit: cover;
+  }
+  .straight_24-7-customer-support {
+    color: $page-color;
+    text-align: left;
+    font-family: "Fraunces-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    position: absolute;
+    right: 20.49%;
+    left: 0%;
+    width: 79.51%;
+    top: 72px;
+  }
+  .straightpraesent{
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 0.35%;
+    left: 0%;
+    width: 99.65%;
+    top: 117px;
+  }
+  .straightframe8 {
+    height: 52px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 434px;
+  }
+  .straightframe9 {
+    height: 52px;
+    position: absolute;
+    right: 76.83%;
+    left: 0%;
+    width: 23.17%;
+    top: calc(50% - 26px);
+  }
+  .straightrectangle3 {
+    border-radius: 64px;
+    border-style: solid;
+    border-color: $page-color;
+    border-width: 2px;
+    height: 52px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+  }
+  .straightget-started {
+    color: $page-color;
+    text-align: center;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 43.5px);
+    top: calc(50% - 12px);
+    width: 87px;
+  }
+  .straightframe10 {
+    height: 16px;
+    position: absolute;
+    right: 55.83%;
+    left: 25.83%;
+    width: 18.33%;
+    top: calc(50% - 8px);
+  }
+  .straightrectangle4 {
+    height: 16px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+  }
+  .straightimage {
+    height: 16px;
+    position: absolute;
+    right: 0%;
+    left: 85.45%;
+    width: 14.55%;
+    top: calc(50% - 8px);
+    overflow: visible;
+  }
+  .straighttry-for-free {
+    color: $page-color;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 21.82%;
+    left: 0%;
+    width: 78.18%;
+    top: calc(50% - 11px);
+  }
+  .straightstraight-to-the-point {
+    color: $page-color;
+    text-align: left;
+    font-family: "Fraunces-Regular", sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+    position: absolute;
+    right: 32.67%;
+    left: 0%;
+    width: 67.33%;
+    top: 47px;
+  }
+  .straightvivamus{
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    position: absolute;
+    right: 4.33%;
+    left: 0%;
+    width: 95.67%;
+    top: 122px;
+  }

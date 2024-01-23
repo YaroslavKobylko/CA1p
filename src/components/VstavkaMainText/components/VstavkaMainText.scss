@@ -1,0 +1,177 @@
+@import '../../../variables';
+
+.vstavkaMainText,
+.vstavkaMainText * {
+  box-sizing: border-box;
+}
+
+.vstavkaMainText {
+  width: 768px;
+  height: 433px;
+  position: relative;
+  margin: 96px 336px 104px 336px;
+}
+
+.vstavkaMainText2 {
+  height: 68px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 242px;
+}
+
+.vstavkaMainText3 {
+  width: 139px;
+  height: 52px;
+  position: absolute;
+  left: calc(50% - 140px);
+  top: 16px;
+}
+
+.vstavkaMainTextrectangle {
+  background: $primary-color;
+  border-radius: 64px;
+  border-style: solid;
+  border-color: $primary-color;
+  border-width: 2px;
+  height: 52px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+
+.get-started {
+  color: $page-color;
+  text-align: center;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 43.5px);
+  top: 14px;
+  width: 87px;
+}
+
+.vstavkaMainText4 {
+  height: 16px;
+  position: absolute;
+  right: 31.64%;
+  left: 54.04%;
+  width: 14.32%;
+  top: 34px;
+}
+
+.vstavkaMainTextrectangle2 {
+  height: 16px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+
+.vstavkaMainTextimage {
+  height: 16px;
+  position: absolute;
+  right: 0%;
+  left: 85.45%;
+  width: 14.55%;
+  top: calc(50% - 8px);
+  overflow: visible;
+}
+
+.vstavkaMainTexttry-for-free {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 55px);
+  top: calc(50% - 8px);
+  width: 86px;
+}
+
+.vstavkaMainText5 {
+  height: 99px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 334px;
+}
+
+.vstavkaMainTextimage2 {
+  width: 132px;
+  height: 35px;
+  position: absolute;
+  left: calc(50% - 153px);
+  top: calc(50% - 17.5px);
+  overflow: visible;
+}
+
+.vstavkaMainTextimage3 {
+  width: 140px;
+  height: 30px;
+  position: absolute;
+  left: calc(50% - -177px);
+  top: calc(50% - 14.5px);
+  overflow: visible;
+}
+
+.vstavkaMainTextimage4 {
+  width: 134px;
+  height: 34px;
+  position: absolute;
+  left: calc(50% - -11px);
+  top: calc(50% - 16.5px);
+  overflow: visible;
+}
+
+.vstavkaMainTextimage5 {
+  width: 132px;
+  height: 35px;
+  position: absolute;
+  left: calc(50% - 317px);
+  top: calc(50% - 17.5px);
+  overflow: visible;
+}
+
+.vstavkaMainText6 {
+  width: 768px;
+  height: 242px;
+  position: absolute;
+  left: calc(50% - 384px);
+  top: 0px;
+}
+
+.consectetur-adipiscing-elit-integer-sagittis-quam-magna-quis-sollicitudin-lorem-ornare-ut-nulla-et-scelerisque-mauris {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 356px);
+  top: 160px;
+  width: 713px;
+}
+
+.head-start-your-business-today {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Fraunces-Bold", sans-serif;
+  font-size: 56px;
+  line-height: 67.2px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 347px);
+  top: -1px;
+  width: 695px;
+}
