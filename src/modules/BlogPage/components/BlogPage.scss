@@ -1,0 +1,14 @@
+.blogpageframe,
+.blogpageframe * {
+  box-sizing: border-box;
+}
+.blogpageframe {
+  width: 1280px;
+  height: 1288px;
+  position: relative;
+}
+
+.blogpage-main{
+  display: flex;
+  justify-content: center;
+}

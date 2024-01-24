@@ -8,6 +8,9 @@ import BuildingPage from '../../modules/BuildingPage'; // Позначте пр�
 import StraightPage from '../../modules/StraightPage'; // Позначте правильний шлях до вашого ContentModule.js
 import CustomersPage from '../../modules/CustomersPage'; // Позначте правильний шлях до вашого ContentModule.js
 import PricingPage from '../../modules/PricingPage'; // Позначте правильний шлях до вашого ContentModule.js
+import BlogPage from '../../modules/BlogPage'; // Позначте правильний шлях до вашого ContentModule.js
+import StayUpPage from '../../modules/StayUpPage'; // Позначте правильний шлях до вашого ContentModule.js
+import Footer from '../../components/Footer'; // Позначте правильний шлях до вашого ContentModule.js
 
 const HomePage = () => {
   return (
@@ -21,6 +24,9 @@ const HomePage = () => {
       <StraightPage />
       <CustomersPage />
       <PricingPage />
+      <BlogPage />
+      <StayUpPage />
+      <Footer />
     </div>
   );
 };

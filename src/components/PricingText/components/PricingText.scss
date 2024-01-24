@@ -6,7 +6,6 @@
   width: 768px;
   height: 156px;
   position: relative;
-  padding-top: 128px;
 }
 .pricingframe2text {
   width: 77px;
@@ -60,4 +59,10 @@
   left: calc(50% - 250px);
   top: 129px;
   width: 500px;
+}
+
+.svg-container-pricing{
+  margin-top: 32px;
+  position: absolute;
+  margin-left: 1364px;
 }
