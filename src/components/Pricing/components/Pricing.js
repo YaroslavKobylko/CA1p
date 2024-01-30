@@ -39,7 +39,7 @@ const Pricing = () => {
           <div class="pricingor-199-yearly">or $199 yearly</div>
           <div class="pricingbasic-plan">Basic plan</div>
           <div class="pricingincludes">Includes:</div>
-          <img class="pricingimage-5" src={process.env.PUBLIC_URL + '/icons/Pricing2.png'} alt="Pricing" />
+          <img class="pricingimage-5" src='/icons/Pricing2.png' alt="Pricing" />
         </div>
         <div class="pricingframe14">
           <div class="pricingrectangle5"></div>
@@ -150,7 +150,7 @@ const Pricing = () => {
           <div class="pricingor-499-yearly">or $499 yearly</div>
           <div class="pricingenterprise-plan">Enterprise plan</div>
           <div class="pricingincludes3">Includes:</div>
-          <img class="pricingimage-6" src={process.env.PUBLIC_URL + '/icons/Pricing2.png'} alt="Pricing" />
+          <img class="pricingimage-6" src='/icons/Pricing2.png' alt="Pricing" />
         </div>
         <div class="pricingframe27">
           <div class="pricingrectangle5"></div>
@@ -159,7 +159,7 @@ const Pricing = () => {
       </div>
     </div>
   </div>
-  <img class="pricingimage-7" src={process.env.PUBLIC_URL + '/icons/Pricing1.png'} alt="Pricing" />
+  <img class="pricingimage-7" src='/icons/Pricing1.png' alt="Pricing" />
     </main>
   );
 }

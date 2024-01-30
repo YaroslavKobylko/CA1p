@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css';
-import HomePage from './pages/HomePage'; // імпорт вашого компоненту
+import HomePage from './pages/HomePage';
 
 function App() {
   return (

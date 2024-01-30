@@ -110,7 +110,7 @@ const Customers= () => {
         </svg>
       </div>
       <div class="customerframe5">
-        <img class="customerimage6" src={process.env.PUBLIC_URL + '/pictures/DanaHale.png'} alt="Dana Hale" />
+        <img class="customerimage6" src='/pictures/DanaHale.png' alt="Dana Hale" />
         <div class="customerframe6">
           <div class="customerdana-hale">Dana Hale</div>
           <div class="customerui-ux-designer-iniry">UI/UX Designer, Iniry</div>
@@ -229,7 +229,7 @@ const Customers= () => {
         </svg>
       </div>
       <div class="customerframe5">
-        <img class="customerimage6" src={process.env.PUBLIC_URL + '/pictures/TravisElton.png'} alt="Travis Elton" />
+        <img class="customerimage6" src='/pictures/TravisElton.png' alt="Travis Elton" />
         <div class="customerframe8">
           <div class="customertravis-elton">Travis Elton</div>
           <div class="customersales-manager-kan-cod">Sales Manager, Kan-cod</div>
@@ -348,7 +348,7 @@ const Customers= () => {
         </svg>
       </div>
       <div class="customerframe10">
-        <img class="customerimage6" src={process.env.PUBLIC_URL + '/pictures/AnnaHanney.png'} alt="Anna Hanney" />
+        <img class="customerimage6" src='/pictures/AnnaHanney.png' alt="Anna Hanney" />
         <div class="customerframe11">
           <div class="customeranna-hanney">Anna Hanney</div>
           <div class="customerhead-of-design-betatech">Head of Design, Betatech</div>
@@ -479,7 +479,7 @@ const Customers= () => {
           <div class="customerceo-sonron">CEO, Sonron</div>
           <div class="customermonica-scarboro">Monica Scarboro</div>
         </div>
-        <img class="customerimage6" src={process.env.PUBLIC_URL + '/pictures/MonicaScarboro.png'} alt="Monica Scarboro" />
+        <img class="customerimage6" src='/pictures/MonicaScarboro.png' alt="Monica Scarboro" />
       </div>
     </div>
     <div class="customerframe14">
@@ -598,7 +598,7 @@ const Customers= () => {
           <div class="customercopywriter-openlane">Copywriter, Openlane</div>
           <div class="customermegan-roston">Megan Roston</div>
         </div>
-        <img class="customerimage6" src={process.env.PUBLIC_URL + '/pictures/MeganRoston.png'} alt="Megan Roston" />
+        <img class="customerimage6" src='/pictures/MeganRoston.png' alt="Megan Roston" />
       </div>
     </div>
     <div class="customerframe16">
@@ -719,7 +719,7 @@ const Customers= () => {
           </div>
           <div class="customerkyle-camden">Kyle Camden</div>
         </div>
-        <img class="customerimage6" src={process.env.PUBLIC_URL + '/pictures/KyleCamden.png'} alt="Kyle Camden" />
+        <img class="customerimage6" src='/pictures/KyleCamden.png' alt="Kyle Camden" />
       </div>
     </div>
   </div>

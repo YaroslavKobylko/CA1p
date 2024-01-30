@@ -1,3 +1,1 @@
-import BlogPage from './components/BlogPage';
-
-export default BlogPage;
+export { default } from './components/BlogPage';

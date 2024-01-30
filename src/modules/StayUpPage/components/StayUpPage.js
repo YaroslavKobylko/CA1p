@@ -4,10 +4,10 @@ import StayUp from '../../../components/StayUp';
 
 const StayUpPage = () => {
     return (
-        <main className='stayup-main'>
+        <section className='stayup-main'>
           <div className='blue-background-stayup'></div>
             <StayUp />
-        </main>
+        </section>
     );
 }
 

@@ -1,3 +1,1 @@
-import HomePage from './HomePage'; // Позначте правильний шлях до вашого Header.js
-
-export default HomePage;
+export { default } from './components/HomePage';

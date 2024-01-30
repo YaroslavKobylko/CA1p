@@ -1,3 +1,1 @@
-import Pricing from './components/Pricing';
-
-export default Pricing;
+export { default } from './components/Pricing';

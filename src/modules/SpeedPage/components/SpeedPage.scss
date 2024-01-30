@@ -1,4 +1,4 @@
-@import '../../../variables';
+@import '../../../styles/variables';
 
 .speedframe,
 .speedframe * {
@@ -9,6 +9,12 @@
   height: 856px;
   position: relative;
 }
+
+.svg-container-speed{
+    margin-left: 1240px;
+    margin-top: 130px;
+}
+
 .speedframe2 {
   height: 600px;
   position: absolute;

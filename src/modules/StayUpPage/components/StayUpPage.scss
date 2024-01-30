@@ -1,4 +1,4 @@
-@import '../../../variables';
+@import '../../../styles/variables';
 
 .stayupframe,
 .stayupframe * {
@@ -88,29 +88,7 @@
   left: calc(50% - 256px);
   top: 0px;
 }
-.stayuprectangle4 {
-  background: #162e3c;
-  border-radius: 64px;
-  border-style: solid;
-  border-color: #162e3c;
-  border-width: 2px;
-  height: 52px;
-  position: absolute;
-  right: 0%;
-  left: 75%;
-  width: 25%;
-  top: 0px;
-}
-.stayuprectangle5 {
-  background: #ffffff;
-  border-radius: 24px;
-  height: 52px;
-  position: absolute;
-  right: 28.12%;
-  left: 0%;
-  width: 71.88%;
-  top: 0px;
-}
+
 .stayupenter-your-email {
   color: #162e3c;
   text-align: center;

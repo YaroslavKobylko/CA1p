@@ -1,6 +1,5 @@
 import React from 'react';
 import './VstavkaMainText.scss';
-import VstavkaMainTextSVGs from '../../../UI/VstavkaMainText/VstavkaMainTextSVGs';
 
 const VstavkaMainText = () => {
   return (
@@ -30,7 +29,12 @@ const VstavkaMainText = () => {
       <div class="vstavkaMainTexttry-for-free">Try for free</div>
     </div>
   </div>
-  <VstavkaMainTextSVGs/>
+  <div className='marketing'>
+  <img src="/icons/VstavkaMainText/VstavkaMainTextSVG4.svg" alt="VstavkaMain" />
+  <img src="/icons/VstavkaMainText/VstavkaMainTextSVG1.svg" alt="VstavkaMain" />
+  <img src="/icons/VstavkaMainText/VstavkaMainTextSVG3.svg" alt="VstavkaMain" />
+  <img src="/icons/VstavkaMainText/VstavkaMainTextSVG2.svg" alt="VstavkaMain" />
+  </div>
   <div class="vstavkaMainText6">
     <div
       class="consectetur-adipiscing-elit-integer-sagittis-quam-magna-quis-sollicitudin-lorem-ornare-ut-nulla-et-scelerisque-mauris"

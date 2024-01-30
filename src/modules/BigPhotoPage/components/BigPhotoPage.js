@@ -4,10 +4,10 @@ import BigPhoto from '../../../components/BigPhoto';
 
 const BigPhotoPage = () => {
     return (
-        <main className='BigPage'>
+        <section className='BigPage'>
             <div className='blue-background'></div>
             <BigPhoto/>
-        </main>
+        </section>
     );
 }
 

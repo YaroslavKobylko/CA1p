@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 .footerframe,
 .footerframe * {
   box-sizing: border-box;
@@ -6,7 +8,7 @@
   width: 1440px;
   height: 835.11px;
   position: relative;
-  background-color: #162e3c;
+  background-color: $page-color;
   display: flex;
   justify-content: center;
 }
@@ -787,7 +789,7 @@
   top: 0px;
 }
 .footerrectangle5 {
-  background: #ddf0a7;
+  background: $primary-color;
   border-radius: 32px;
   height: 41px;
   position: absolute;
@@ -843,5 +845,5 @@
 .footer{
     display: flex;
     justify-content: center;
-    background-color: #162e3c;
+    background-color: $page-color;
 }

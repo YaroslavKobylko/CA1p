@@ -5,13 +5,13 @@ import Straight from '../../../components/Straight';
 
 const MainPage = () => {
     return (
-        <main className='straightmain'>
+        <section className='straightmain'>
 <div class="straightframe">
       <StraightText />
       <Straight />
   
 </div>
-        </main>
+        </section>
     );
 }
 

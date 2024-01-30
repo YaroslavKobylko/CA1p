@@ -1,16 +1,18 @@
 import React from 'react';
 import './VstavkaMain.scss';
-import VstavkaMain1 from '../../../UI/VstavkaMain/VstavkaMain1';
-import VstavkaMain2 from '../../../UI/VstavkaMain/VstavkaMain2';
-import VstavkaMain3 from '../../../UI/VstavkaMain/VstavkaMain3';
-
 
 const VstavkaMain = () => {
   return (
     <div>
-      <VstavkaMain1 />
-      <VstavkaMain2 />
-      <VstavkaMain3 />
+      <div className="image1">
+      <img src="/icons/VstavkaMain/VstavkaMain1.svg" alt="MainSVG" />
+      </div>
+      <div className="image2">
+      <img src="/icons/VstavkaMain/VstavkaMain2.svg" alt="MainSVG" />
+      </div>
+      <div className="image3">
+      <img src="/icons/VstavkaMain/VstavkaMain3.svg" alt="MainSVG" />
+      </div>
     </div>
   );
 };

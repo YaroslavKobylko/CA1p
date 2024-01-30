@@ -5,12 +5,12 @@ import VstavkaMainText from '../../../components/VstavkaMainText';
 
 const MainPage = () => {
     return (
-        <main className='main'>
+        <section className='main'>
             <div className='main-container'>
             <VstavkaMain />
             <VstavkaMainText />
             </div>
-        </main>
+        </section>
     );
 }
 

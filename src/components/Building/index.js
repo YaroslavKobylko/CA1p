@@ -1,3 +1,1 @@
-import Building from './components/Building';
-
-export default Building;
+export { default } from './components/Building';

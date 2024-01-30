@@ -1,3 +1,1 @@
-import StayUpPage from './components/StayUpPage';
-
-export default StayUpPage;
+export { default } from './components/StayUpPage';

@@ -1,5 +1,6 @@
 import React from 'react';
 import './SpeedText.scss';
+import GetStartedButton from '../../../UI/GetStartedButton';
 
 const SpeedText = () => {
   return (
@@ -9,10 +10,7 @@ const SpeedText = () => {
       <div class="speedspeed">Speed</div>
     </div>
     <div class="speedframe9">
-      <div class="speedframe10">
-        <div class="speedrectangle4"></div>
-        <div class="speedget-started">Get started</div>
-      </div>
+    <GetStartedButton/>
       <div class="speedframe11">
         <div class="speedrectangle5"></div>
         <svg

@@ -2,17 +2,18 @@ import React from 'react';
 import './PricingPage.scss';
 import PricingText from '../../../components/PricingText';
 import Pricing from '../../../components/Pricing';
-import PricingSVG from '../../../UI/PricingSVG/PricingSVG';
 
 const PricingPage = () => {
     return (
-        <main className='pricing-page'>
+        <section className='pricing-page'>
             <div class="pricingframe">
             <PricingText/>
-            <PricingSVG />
+            <div className="svg-container-pricing">
+            <img src="/icons/PricingSVG/PricingSVG.svg" alt="PricingSVG" />
+            </div>
             <Pricing />
             </div>
-        </main>
+        </section>
     );
 }
 

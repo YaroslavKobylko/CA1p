@@ -1,4 +1,5 @@
-@import '../../../variables';
+@import '../../../styles/variables';
+@import '../../../styles/mixins/font_mixins.scss';
 
 .speedframe7 {
     height: 304px;
@@ -29,15 +30,15 @@
   .speedspeed {
     color: $page-color;
     text-align: left;
-    font-family: "SpaceGrotesk-Bold", sans-serif;
+    @include getstarted-font;
     font-size: 15px;
-    line-height: 24px;
-    font-weight: 700;
     position: absolute;
     right: 16.67%;
     left: 16.67%;
     width: 66.67%;
     top: 4px;
+    display: flex;
+    justify-content: center;
   }
   .speedframe9 {
     height: 52px;
@@ -47,38 +48,7 @@
     width: 100%;
     top: 252px;
   }
-  .speedframe10 {
-    height: 52px;
-    position: absolute;
-    right: 76.83%;
-    left: 0%;
-    width: 23.17%;
-    top: calc(50% - 26px);
-  }
-  .speedrectangle4 {
-    border-radius: 64px;
-    border-style: solid;
-    border-color: $page-color;
-    border-width: 2px;
-    height: 52px;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    top: 0px;
-  }
-  .speedget-started {
-    color: $page-color;
-    text-align: center;
-    font-family: "SpaceGrotesk-Regular", sans-serif;
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: 400;
-    position: absolute;
-    left: calc(50% - 43.5px);
-    top: calc(50% - 12px);
-    width: 87px;
-  }
+
   .speedframe11 {
     height: 16px;
     position: absolute;
@@ -107,10 +77,8 @@
   .speedtry-for-free {
     color: $page-color;
     text-align: left;
-    font-family: "SpaceGrotesk-Regular", sans-serif;
+    @include fast-try-to-font;
     font-size: 15px;
-    line-height: 16px;
-    font-weight: 400;
     position: absolute;
     right: 21.82%;
     left: 0%;
@@ -120,10 +88,8 @@
   .speedfaster-than-ever-before {
     color: $page-color;
     text-align: left;
-    font-family: "Fraunces-Regular", sans-serif;
     font-size: 40px;
-    line-height: 48px;
-    font-weight: 400;
+    @include faster-than-font;
     position: absolute;
     right: 23.17%;
     left: 0%;
@@ -133,10 +99,8 @@
   .speed-morbi{
     color: #49616e;
     text-align: left;
-    font-family: "SpaceGrotesk-Regular", sans-serif;
+    @include morbi-font;
     font-size: 18px;
-    line-height: 27px;
-    font-weight: 400;
     position: absolute;
     right: 0.67%;
     left: 0%;

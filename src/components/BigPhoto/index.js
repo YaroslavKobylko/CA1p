@@ -1,3 +1,1 @@
-import BigPhoto from './components/BigPhoto';
-
-export default BigPhoto;
+export { default } from './components/BigPhoto';

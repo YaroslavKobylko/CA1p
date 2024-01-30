@@ -1,4 +1,5 @@
-@import '../../../variables';
+@import '../../../styles/variables';
+@import '../../../styles/mixins/font_mixins.scss';
 
 .topbar {
   background-color: $primary-color;
@@ -16,11 +17,9 @@
 
     p {
       color: $page-color;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 24px; /* 160% */
+      font-size: 15px;
       width: 179px;
+      @include header-font;
     }
 
     .custom-button {

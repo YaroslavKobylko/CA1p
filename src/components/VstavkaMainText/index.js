@@ -1,3 +1,1 @@
-import VstavkaMainText from './components/VstavkaMainText';
-
-export default VstavkaMainText;
+export { default } from './components/VstavkaMainText';

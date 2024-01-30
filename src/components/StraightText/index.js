@@ -1,3 +1,1 @@
-import StraightText from './components/StraightText';
-
-export default StraightText;
+export { default } from './components/StraightText';

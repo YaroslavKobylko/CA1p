@@ -1,0 +1,131 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins/font_mixins.scss';
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  height: 72px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.92);
+  display: flex;
+  justify-content: center;
+}
+
+.headerContainer {
+    display: inline-flex;
+    padding: 14px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 587px;
+  }
+
+    .headerLogo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .headerNav {
+      display: flex;
+      width: 581px;
+      height: 44px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ulclass{
+      display: flex;
+      width: 581px;
+      height: 44px;
+      justify-content: center;
+      align-items: center;
+      margin-right: 38px;
+    }
+
+    .ulclass a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: $page-color;
+      font-size: 16px;
+      @include header-font;
+    }
+
+    .frame4 {
+      display: flex;
+      width: 94px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .frame5 {
+      width: 85px;
+      height: 40px;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .frame6 {
+      width: 87px;
+      height: 40px;
+      flex-shrink: 0;
+      color: rgba(22, 46, 60, 1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 64px;
+      border: 2px solid $page-color;
+      margin-right: 8px;
+    }
+
+    .frame2 {
+      width: 106px;
+      height: 40px;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .frame3 {
+      width: 67px;
+      height: 40px;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .frame8 {
+      width: 94px;
+      height: 40px;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .frame7 {
+      width: 126px;
+      height: 40px;
+      flex-shrink: 0;
+      border-radius: 64px;
+      border: 2px solid $page-color;
+      background: $page-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    a[href="#try-for free"] {
+      color: white;
+    }

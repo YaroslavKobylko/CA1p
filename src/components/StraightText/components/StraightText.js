@@ -1,5 +1,6 @@
 import React from 'react';
 import './StraightText.scss';
+import GetStartedButton from '../../../UI/GetStartedButton';
 
 const StraightText = () => {
   return (
@@ -12,7 +13,7 @@ const StraightText = () => {
       <div class="straightframe5">
         <div class="straightframe6">
           <div class="straightrectangle2"></div>
-          <img class="straightimage-2" src={process.env.PUBLIC_URL + '/icons/Straight1.png'} alt="No meetings"  />
+          <img class="straightimage-2" src='/icons/Straight1.png' alt="No meetings"  />
         </div>
         <div class="straightno-meetings">No meetings</div>
         <div
@@ -25,7 +26,7 @@ const StraightText = () => {
       <div class="straightframe7">
         <div class="straightframe6">
           <div class="straightrectangle2"></div>
-          <img class="straightimage-3" src={process.env.PUBLIC_URL + '/icons/Straight2.png'} alt="24/7" />
+          <img class="straightimage-3" src='/icons/Straight2.png' alt="24/7" />
         </div>
         <div class="straight_24-7-customer-support">24/7 customer support</div>
         <div
@@ -38,8 +39,7 @@ const StraightText = () => {
     </div>
     <div class="straightframe8">
       <div class="straightframe9">
-        <div class="straightrectangle3"></div>
-        <div class="straightget-started">Get started</div>
+      <GetStartedButton/>
       </div>
       <div class="straightframe10">
         <div class="straightrectangle4"></div>

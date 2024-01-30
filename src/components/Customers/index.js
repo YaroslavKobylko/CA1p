@@ -1,3 +1,1 @@
-import Customers from './components/Customers';
-
-export default Customers;
+export { default } from './components/Customers';

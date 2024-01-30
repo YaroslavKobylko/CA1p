@@ -1,3 +1,1 @@
-import Straight from './components/Straight';
-
-export default Straight;
+export { default } from './components/Straight';

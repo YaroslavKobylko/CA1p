@@ -1,6 +1,5 @@
 import React from 'react';
 import './StayUp.scss';
-import StayUpSVG from '../../../UI/StayUpSVG/StayUpSVG';
 
 const StayUp = () => {
   return (
@@ -8,7 +7,9 @@ const StayUp = () => {
 <div class="stayuprectangle"></div>
 <div class="stayupframe2">
 <div class="stayuprectangle2"></div>
-<StayUpSVG />
+<div className="svg-container-stayup">
+<img src="/icons/StayUpSVG/StayUpSVG.svg" alt="StayUpSVG" />
+</div>
 <div class="stayupframe3">
 <div class="stayupframe4">
 <div class="stayuprectangle3"></div>
@@ -20,12 +21,18 @@ const StayUp = () => {
 </div>
 </div>
 <div class="stayupframe5">
-<div class="stayupframe6">
-  <div class="stayuprectangle4"></div>
-  <div class="stayuprectangle5"></div>
-  <div class="stayupenter-your-email">Enter your email</div>
-  <div class="stayupsubscribe">Subscribe</div>
-</div>
+<form className="stayupframe6">
+  <div className="stayupenter-your-email">
+    <label className="input-label" htmlFor="email">Enter your email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      className="stayup-input"
+    />
+  </div>
+  <button type="submit" className="stayupsubscribe">Subscribe</button>
+</form>
 <div class="stayupframe7">
   <div class="stayuprectangle6"></div>
   <div

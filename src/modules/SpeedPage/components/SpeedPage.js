@@ -1,12 +1,11 @@
 import React from 'react';
 import './SpeedPage.scss';
-import SpeedSVG3 from '../../../UI/SpeedSVG3/SpeedSVG3';
-import SpeedIncrease from '../../../UI/SpeedIncrease/SpeedIncrease';
+import SpeedIncrease from '../../../UI/SpeedIncrease';
 import SpeedText from '../../../components/SpeedText';
 
 const MainPage = () => {
     return (
-        <main className='speed'>
+        <section className='speed'>
             <div class="speedframe">
               <div class="speedframe2">
                 <div class="speedframe3">
@@ -17,9 +16,11 @@ const MainPage = () => {
                 </div>
                 <SpeedText/>
               </div>
-      <SpeedSVG3/>
+              <div className="svg-container-speed">
+              <img src="/icons/SpeedSVG3/SpeedSVG3.svg" alt="SpeedSVG" />
+              </div>
 </div>
-        </main>
+        </section>
     );
 }
 

@@ -1,3 +1,1 @@
-import PricingText from './components/PricingText';
-
-export default PricingText;
+export { default } from './components/PricingText';

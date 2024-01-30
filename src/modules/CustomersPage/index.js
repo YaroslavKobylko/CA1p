@@ -1,3 +1,1 @@
-import CustomersPage from './components/CustomersPage';
-
-export default CustomersPage;
+export { default } from './components/CustomersPage';

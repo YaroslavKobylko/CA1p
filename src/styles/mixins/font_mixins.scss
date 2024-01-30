@@ -1,0 +1,56 @@
+@mixin header-font {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+@mixin getstarted-font {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+@mixin try-for-free-font {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+
+@mixin fast-try-to-font{
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+@mixin consectetur-font {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+@mixin HeadStart-font {
+    font-family: "Fraunces-Regular";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 67.2px;
+  }
+
+@mixin morbi-font {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+@mixin faster-than-font {
+    font-family: "Fraunces-Regular", sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+

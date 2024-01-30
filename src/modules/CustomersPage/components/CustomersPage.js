@@ -1,20 +1,22 @@
 import React from 'react';
 import './CustomersPage.scss';
-import CustomersSVG1 from '../../../UI/CustomersSVG/CustomersSVG1';
-import CustomersSVG2 from '../../../UI/CustomersSVG/CustomersSVG2';
 import Customers from '../../../components/Customers';
 
 const CustomersPage = () => {
     return (
-        <main className='customer-main'>
+        <section className='customer-main'>
             <div className='customer-main-container'>
-<div class="customerframe">
-    <CustomersSVG1/>
-    <CustomersSVG2/>
-    <Customers/>
+                <div class="customerframe">
+                    <div className="customersvg1-container">
+                        <img src="/icons/CustomersSVG/CustomersSVG1.svg" alt="CustomersSVG1" />
+                    </div>
+                    <div className="customersvg2-container">
+                        <img src="/icons/CustomersSVG/CustomersSVG2.svg" alt="CustomersSVG2" />
+                    </div>
+                    <Customers/>
 </div>
 </div>
-        </main>
+        </section>
     );
 }
 

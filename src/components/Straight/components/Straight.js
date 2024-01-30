@@ -4,12 +4,12 @@ import './Straight.scss';
 const StraightText = () => {
   return (
 <div class="straightframe11">
-    <img class="straightimage2" src={process.env.PUBLIC_URL + '/pictures/StraightPhoto.png'} alt="Straight to the point" />
+    <img class="straightimage2" src='/pictures/StraightPhoto.png' alt="Straight to the point" />
     <div class="straightframe12">
       <div class="straightrectangle5"></div>
       <div class="straightframe13">
         <div class="straightrectangle6"></div>
-        <img class="straightimage-4" src={process.env.PUBLIC_URL + '/icons/Straight3.png'} alt="24/7"  />
+        <img class="straightimage-4" src='/icons/Straight3.png' alt="24/7"  />
       </div>
       <div class="straightframe14">
         <div class="straight_74">74%</div>
