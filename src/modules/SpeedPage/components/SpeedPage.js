@@ -1,27 +1,27 @@
 import React from 'react';
-import './SpeedPage.scss';
+import styles from './SpeedPage.module.scss';
 import SpeedIncrease from '../../../UI/SpeedIncrease';
 import SpeedText from '../../../components/SpeedText';
 
-const MainPage = () => {
+const SpeedPage = () => {
     return (
-        <section className='speed'>
-            <div class="speedframe">
-              <div class="speedframe2">
-                <div class="speedframe3">
-                  <img class="speedimage" src={process.env.PUBLIC_URL + '/pictures/Speed.png'} alt="SpeedPhoto" />
-                  <div class="speedframe4">
-                    <SpeedIncrease/>
-                  </div>
+        <section className={styles.speedMainContainer}>
+            <div className={styles.speedMain}>
+                <div className={styles.SpeedLeftpart}>
+                    <div className={styles.speedPhotoContainer}>
+                        <img className={styles.speedImage} src={process.env.PUBLIC_URL + '/pictures/Speed.png'} alt="SpeedPhoto" />
+                        <div className={styles.speedIncreaseContainer}>
+                            <SpeedIncrease />
+                        </div>
+                    </div>
+                    <SpeedText />
                 </div>
-                <SpeedText/>
-              </div>
-              <div className="svg-container-speed">
-              <img src="/icons/SpeedSVG3/SpeedSVG3.svg" alt="SpeedSVG" />
-              </div>
-</div>
+                <div className={styles.svgContainerSpeed}>
+                    <img src="/icons/SpeedSVG3/SpeedSVG3.svg" alt="SpeedSVG" />
+                </div>
+            </div>
         </section>
     );
 }
 
-export default MainPage;
+export default SpeedPage;

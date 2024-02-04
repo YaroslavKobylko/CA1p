@@ -1,17 +1,14 @@
 import React from 'react';
-import './PricingPage.scss';
-import PricingText from '../../../components/PricingText';
-import Pricing from '../../../components/Pricing';
+import styles from './PricingPage.module.scss';  // Використовуємо модульні стилі
+import PricingText from '../../../components/Pricing/PricingText';
+import PricingPhoto from '../../../components/Pricing/PricingPhoto';
 
 const PricingPage = () => {
     return (
-        <section className='pricing-page'>
-            <div class="pricingframe">
-            <PricingText/>
-            <div className="svg-container-pricing">
-            <img src="/icons/PricingSVG/PricingSVG.svg" alt="PricingSVG" />
-            </div>
-            <Pricing />
+        <section className={styles.pricingPage}>
+            <div className={styles.pricingContainer}>
+                <PricingText />
+                <PricingPhoto />
             </div>
         </section>
     );

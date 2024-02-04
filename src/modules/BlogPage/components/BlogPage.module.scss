@@ -1,0 +1,14 @@
+.blogpageContainer,
+.blogpageContainer * {
+  box-sizing: border-box;
+}
+.blogpageContainer {
+  width: 1280px;
+  height: 1288px;
+  position: relative;
+}
+
+.blogpageMain{
+  display: flex;
+  justify-content: center;
+}

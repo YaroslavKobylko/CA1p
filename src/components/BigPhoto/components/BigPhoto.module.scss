@@ -1,0 +1,69 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins/font_mixins.scss';
+
+.BigPhotoframe,
+.BigPhotoframe * {
+  box-sizing: border-box;
+}
+.BigPhotoframe {
+  width: 1440px;
+  height: 640px;
+  position: relative;
+  background-color: white;
+}
+.BigPhotobluepart {
+  background: $page-color;
+  height: 320px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+.BigPhotoPhotoContainer {
+  width: 1280px;
+  height: 640px;
+  position: absolute;
+  left: calc(50% - 640px);
+  top: calc(50% - 320px);
+  overflow: hidden;
+}
+
+.BigPhotoImage {
+  width: 1280px;
+  height: 854px;
+  position: absolute;
+  left: calc(50% - 640px);
+  top: calc(50% - 427px);
+}
+.BigPhotoTextContainer {
+  height: 52px;
+  position: absolute;
+  right: 42.42%;
+  left: 39.38%;
+  width: 18.2%;
+  top: 274px;
+}
+.BigPhotoButtonBackground {
+  background: $primary-color;
+  border-radius: 64px;
+  border-style: solid;
+  border-color: $primary-color;
+  border-width: 2px;
+  height: 52px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+.BigPhotoWatchIntroduction {
+  color: $page-color;
+  text-align: center;
+  font-size: 15px;
+  @include getstarted-font;
+  position: absolute;
+  left: calc(50% - 74.5px);
+  top: 14px;
+  width: 149px;
+}

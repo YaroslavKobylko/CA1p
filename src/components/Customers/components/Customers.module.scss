@@ -1,0 +1,461 @@
+@import '../../../styles/variables';
+
+.CustomerContainer {
+    height: 960px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 188px;
+  }
+  .Customer1 {
+    height: 197px;
+    position: absolute;
+    right: 51.25%;
+    left: 0%;
+    width: 48.75%;
+    top: 32px;
+  }
+  .CustomerBackground1 {
+    background: #ffffff;
+    border-radius: 32px;
+    height: 256px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: -23px;
+  }
+  .CustomerStarsContainer {
+    height: 20px;
+    position: absolute;
+    right: 5.13%;
+    left: 5.13%;
+    width: 89.74%;
+    top: 0px;
+  }
+  
+  .CustomerInfoContainer1 {
+    height: 48px;
+    position: absolute;
+    right: 5.13%;
+    left: 5.13%;
+    width: 89.74%;
+    top: 149px;
+  }
+  .customerimage6 {
+    height: 48px;
+    position: absolute;
+    right: 91.43%;
+    left: 0%;
+    width: 8.57%;
+    top: calc(50% - 24px);
+    object-fit: cover;
+  }
+  .CustomerText1 {
+    height: 48px;
+    position: absolute;
+    right: 61.07%;
+    left: 11.43%;
+    width: 27.5%;
+    top: calc(50% - 24px);
+  }
+  .CustomerDanaHale {
+    color: $page-color;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 50.65%;
+    left: 0%;
+    width: 49.35%;
+    top: 0px;
+  }
+  .CustomerJob1 {
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 24px;
+  }
+  .CustomerPellentesque{
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    position: absolute;
+    right: 8.01%;
+    left: 5.13%;
+    width: 86.86%;
+    top: 46px;
+  }
+  .Customer2 {
+    height: 197px;
+    position: absolute;
+    right: 51.25%;
+    left: 0%;
+    width: 48.75%;
+    top: 618px;
+  }
+  .CustomerBackground2 {
+    background: #ffffff;
+    border-radius: 32px;
+    height: 256px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+  }
+  .CustomerText2 {
+    height: 48px;
+    position: absolute;
+    right: 55.71%;
+    left: 11.43%;
+    width: 32.86%;
+    top: calc(50% - 24px);
+  }
+  .customertravisElton {
+    color: $page-color;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 52.17%;
+    left: 0%;
+    width: 47.83%;
+    top: 0px;
+  }
+  .CustomerJob2 {
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 24px;
+  }
+  .CustomerDonec{
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    position: absolute;
+    right: 6.57%;
+    left: 5.13%;
+    width: 88.3%;
+    top: 46px;
+  }
+  .Customer3 {
+    height: 256px;
+    position: absolute;
+    right: 0%;
+    left: 51.25%;
+    width: 48.75%;
+    top: 352px;
+  }
+  .CustomerBackground3 {
+    background: #ffffff;
+    border-radius: 32px;
+    height: 256px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: -11px;
+  }
+
+  .CustomerInfoContainer2 {
+    height: 48px;
+    position: absolute;
+    right: 5.13%;
+    left: 5.13%;
+    width: 89.74%;
+    top: 176px;
+  }
+  .CustomerText3 {
+    height: 48px;
+    position: absolute;
+    right: 53.75%;
+    left: 11.43%;
+    width: 34.82%;
+    top: calc(50% - 24px);
+  }
+  .CustomerAnnaHanney {
+    color: $page-color;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 47.69%;
+    left: 0%;
+    width: 52.31%;
+    top: 0px;
+  }
+  .CustomerJob3 {
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 24px;
+  }
+  .CustomerInEros{
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    position: absolute;
+    right: 8.65%;
+    left: 5.13%;
+    width: 86.22%;
+    top: 46px;
+  }
+  .Customer4 {
+    height: 224px;
+    position: absolute;
+    right: 0%;
+    left: 51.25%;
+    width: 48.75%;
+    top: 32px;
+  }
+  
+  .CustomerAeneanEu{
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    position: absolute;
+    right: 5.77%;
+    left: 5.13%;
+    width: 89.1%;
+    top: 46px;
+  }
+  .CustomerText4 {
+    height: 48px;
+    position: absolute;
+    right: 65.36%;
+    left: 11.43%;
+    width: 23.21%;
+    top: calc(50% - 24px);
+  }
+  .CustomerCeoSonron {
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 27.69%;
+    left: 0%;
+    width: 72.31%;
+    top: 24px;
+  }
+  .CustomerMonicaScarboro {
+    color: #162e3c;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+  }
+  .Customer5 {
+    height: 224px;
+    position: absolute;
+    right: 0%;
+    left: 51.25%;
+    width: 48.75%;
+    top: 672px;
+  }
+  .CustomerBackground5 {
+    background: #ffffff;
+    border-radius: 32px;
+    height: 256px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: -7px;
+  }
+  
+  .CustomerDuisAt{
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    position: absolute;
+    right: 8.81%;
+    left: 5.13%;
+    width: 86.06%;
+    top: 46px;
+  }
+  .CustomerText5 {
+    height: 48px;
+    position: absolute;
+    right: 59.29%;
+    left: 11.43%;
+    width: 29.29%;
+    top: calc(50% - 24px);
+  }
+  .CustomerJob5 {
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 24px;
+  }
+  .CustomerMeganRoston {
+    color: $page-color;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 32.32%;
+    left: 0%;
+    width: 67.68%;
+    top: 0px;
+  }
+  .Customer6 {
+    height: 197px;
+    position: absolute;
+    right: 51.25%;
+    left: 0%;
+    width: 48.75%;
+    top: 325px;
+  }
+  .CustomerBackground6 {
+    background: #ffffff;
+    border-radius: 32px;
+    height: 256px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: -15px;
+  }
+  
+  .CustomerInLuctus{
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    position: absolute;
+    right: 12.98%;
+    left: 5.13%;
+    width: 81.89%;
+    top: 46px;
+  }
+  .CustomerText6 {
+    height: 48px;
+    position: absolute;
+    right: 46.25%;
+    left: 11.43%;
+    width: 42.32%;
+    top: calc(50% - 24px);
+  }
+  .CustomerJob6 {
+    color: #49616e;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 24px;
+  }
+  .CustomerKyleCamden {
+    color: $page-color;
+    text-align: left;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 58.23%;
+    left: 0%;
+    width: 41.77%;
+    top: 0px;
+  }
+  .CustomerTitleContainer {
+    height: 108px;
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    width: 60%;
+    top: 0px;
+  }
+  .CustomerEuTurpis{
+    color: #ffffff;
+    text-align: center;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 308px);
+    top: 81px;
+    width: 617px;
+  }
+  .CustomerAWords {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Fraunces-Regular", sans-serif;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 340px);
+    top: -1px;
+    width: 681px;
+  }
+  

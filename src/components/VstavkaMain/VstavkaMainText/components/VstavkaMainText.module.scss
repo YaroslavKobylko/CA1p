@@ -1,0 +1,134 @@
+@import '../../../../styles/variables';
+@import '../../../../styles/mixins/font_mixins.scss';
+
+.vstavkaMainTextContainer,
+.vstavkaMainTextContainer * {
+  box-sizing: border-box;
+}
+
+.vstavkaMainTextContainer {
+  width: 768px;
+  height: 433px;
+  position: relative;
+  margin: 96px 336px 104px 336px;
+}
+
+.vstavkaMainBot {
+  height: 68px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 242px;
+}
+
+.GetStartedContainer {
+  width: 139px;
+  height: 52px;
+  position: absolute;
+  left: calc(50% - 140px);
+  top: 16px;
+}
+
+.GetStartedBackground {
+  background: $primary-color;
+  border-radius: 64px;
+  border-style: solid;
+  border-color: $primary-color;
+  border-width: 2px;
+  height: 52px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+
+.getStarted {
+  color: $page-color;
+  text-align: center;
+  font-size: 15px;
+  position: absolute;
+  left: calc(50% - 43.5px);
+  top: 14px;
+  width: 87px;
+  @include getstarted-font;
+}
+
+.vstavkaMainTextTry {
+  height: 16px;
+  position: absolute;
+  right: 31.64%;
+  left: 54.04%;
+  width: 14.32%;
+  top: 34px;
+}
+
+.vstavkaMainTextTry img{
+  height: 16px;
+  position: absolute;
+  right: 0%;
+  left: 85.45%;
+  width: 14.55%;
+  top: calc(50% - 8px);
+  overflow: visible;
+}
+
+.vstavkaMainTexttryForFree {
+  color: #ffffff;
+  text-align: center;
+  @include try-for-free-font;
+  font-size: 15px;
+  position: absolute;
+  left: calc(50% - 55px);
+  top: calc(50% - 8px);
+  width: 86px;
+}
+
+.vstavkaMainText5 {
+  height: 99px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 334px;
+}
+
+.vstavkaMainTop {
+  width: 768px;
+  height: 242px;
+  position: absolute;
+  left: calc(50% - 384px);
+  top: 0px;
+}
+
+.consecteturAdipiscing {
+  color: #ffffff;
+  text-align: center;
+  @include consectetur-font;
+  font-size: 20px;
+  position: absolute;
+  left: calc(50% - 356px);
+  top: 160px;
+  width: 713px;
+}
+
+.headStartYourBusiness {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  @include HeadStart-font;
+  position: absolute;
+  left: calc(50% - 347px);
+  top: -1px;
+  width: 695px;
+}
+
+.Partners{
+  display: flex;
+  width: 768px;
+  padding: 366px 68px;
+  justify-content: center;
+  align-items: center;
+  gap: 32px
+}

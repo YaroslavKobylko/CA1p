@@ -1,18 +1,17 @@
 import React from 'react';
-import './StraightPage.scss';
-import StraightText from '../../../components/StraightText';
-import Straight from '../../../components/Straight';
+import styles from './StraightPage.module.scss';
+import StraightText from '../../../components/Straight/StraightText';
+import Straight from '../../../components/Straight/StraightPhoto';
 
-const MainPage = () => {
+const StraightPage = () => {
     return (
-        <section className='straightmain'>
-<div class="straightframe">
-      <StraightText />
-      <Straight />
-  
-</div>
+        <section className={styles.straightmain}>
+            <div className={styles.straightContainer}>
+                <StraightText />
+                <Straight />
+            </div>
         </section>
     );
 }
 
-export default MainPage;
+export default StraightPage;

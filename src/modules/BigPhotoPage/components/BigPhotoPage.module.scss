@@ -1,0 +1,14 @@
+@import '../../../styles/variables';
+
+.BigPage {
+    display: flex;
+    justify-content: center;
+}
+
+.blueBackground{
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    background-color: $page-color;
+}
+

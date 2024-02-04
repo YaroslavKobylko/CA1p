@@ -1,0 +1,68 @@
+.pricingTextContainer,
+.pricingTextContainer * {
+  box-sizing: border-box;
+}
+.pricingTextContainer {
+  width: 768px;
+  height: 156px;
+  position: relative;
+}
+.PriceButtonContainer {
+  width: 77px;
+  height: 32px;
+  position: absolute;
+  left: calc(50% - 38px);
+  top: 0px;
+}
+.PricingButtonContainer {
+  background: #ddf0a7;
+  border-radius: 64px;
+  height: 32px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+.PricingButtonText {
+  color: #162e3c;
+  text-align: center;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 26.5px);
+  top: 4px;
+  width: 53px;
+}
+.PricingPlan {
+  color: #162e3c;
+  text-align: center;
+  font-family: "Fraunces-Regular", sans-serif;
+  font-size: 48px;
+  line-height: 57.6px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 159px);
+  top: 47px;
+  width: 319px;
+}
+.PricingSuspendisse {
+  color: #49616e;
+  text-align: center;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 250px);
+  top: 129px;
+  width: 500px;
+}
+
+.PricingSVGContainer{
+  margin-top: 32px;
+  position: absolute;
+  margin-left: 980px;
+}

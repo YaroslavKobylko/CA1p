@@ -1,14 +1,14 @@
 import React from 'react';
-import './MainPage.scss';
-import VstavkaMain from '../../../components/VstavkaMain';
-import VstavkaMainText from '../../../components/VstavkaMainText';
+import styles from './MainPage.module.scss';  // Використовуємо модульні стилі
+import VstavkaMain from '../../../components/VstavkaMain/VstavkaMainPhoto';
+import VstavkaMainText from '../../../components/VstavkaMain/VstavkaMainText';
 
 const MainPage = () => {
     return (
-        <section className='main'>
-            <div className='main-container'>
-            <VstavkaMain />
-            <VstavkaMainText />
+        <section className={styles.mainPage}>
+            <div className={styles.mainContainer}>
+                <VstavkaMain />
+                <VstavkaMainText />
             </div>
         </section>
     );

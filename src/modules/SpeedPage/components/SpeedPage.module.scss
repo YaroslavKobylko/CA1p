@@ -1,0 +1,130 @@
+@import '../../../styles/variables';
+
+.speedMain,
+.speedMain * {
+  box-sizing: border-box;
+}
+.speedMain {
+  width: 1280px;
+  height: 856px;
+  position: relative;
+}
+
+.svgContainerSpeed{
+    margin-left: 1240px;
+    margin-top: 130px;
+}
+
+.SpeedLeftpart{
+  height: 600px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 128px;
+}
+.speedPhotoContainer {
+  height: 600px;
+  position: absolute;
+  right: 53.12%;
+  left: 0%;
+  width: 46.88%;
+  top: 0px;
+}
+.speedImage {
+  border-radius: 32px;
+  height: 600px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+  object-fit: cover;
+}
+.speedIncreaseContainer{
+  height: 120px;
+  position: absolute;
+  right: -8%;
+  left: 38%;
+  width: 70%;
+  top: 432px;
+}
+.speedrectangle {
+  background: $primary-color;
+  border-radius: 24px;
+  height: 120px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+.speedframe5 {
+  height: 72px;
+  position: absolute;
+  right: 5.71%;
+  left: 77.14%;
+  width: 17.14%;
+  top: calc(50% - 36px);
+}
+.speedrectangle2 {
+  background: $page-color;
+  border-radius: 16px;
+  height: 72px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 0px;
+}
+.speedimage-1 {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  object-fit: cover;
+}
+.speedframe6 {
+  height: 71px;
+  position: absolute;
+  right: 52.62%;
+  left: 5.71%;
+  width: 41.67%;
+  top: calc(50% - 35.5px);
+}
+.speedincreased-in-sales {
+  color: $page-color;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 41.5px;
+}
+.speed_86 {
+  color: $page-color;
+  text-align: left;
+  font-family: "Fraunces-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 41.6px;
+  font-weight: 700;
+  position: absolute;
+  right: 61.14%;
+  left: 0%;
+  width: 38.86%;
+  top: -0.5px;
+}
+
+
+.speedMainContainer {
+  display: flex;
+  justify-content: center;
+  background: white;
+  position: relative;
+  z-index: 1;
+}

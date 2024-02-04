@@ -1,0 +1,385 @@
+@import '../../../../styles/variables';
+
+.BlogPageTopic {
+    height: 664px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 364px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .BlogPageTopic1 {
+    height: 664px;
+    position: absolute;
+    right: 68.36%;
+    left: 0%;
+    width: 403px;
+    top: 0px;
+  }
+  .BlogPageContur {
+    border-radius: 32px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-width: 1px;
+    height: 664px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.04);
+  }
+  .BlogPagePhoto1 {
+    height: 300px;
+    position: absolute;
+    right: 0.25%;
+    left: 0.25%;
+    width: 99.51%;
+    top: 1px;
+    overflow: hidden;
+  }
+
+  .blogpageimage {
+    height: 300px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+    object-fit: cover;
+  }
+  .BlogPageText1 {
+    height: 362px;
+    position: absolute;
+    right: 0.17%;
+    left: 0.25%;
+    width: 99.59%;
+    top: 301px;
+  }
+  .BlogPageTextContainer1 {
+    height: 258px;
+    position: absolute;
+    right: 5.95%;
+    left: 5.95%;
+    width: 88.1%;
+    top: 24px;
+  }
+  .BlogPageMainText1 {
+    height: 39px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+  }
+  .BlogPageBusContainer {
+    width: 94px;
+    height: 39px;
+    position: absolute;
+    left: calc(50% - 90.66px);
+    top: calc(50% - 19.5px);
+  }
+  .BlogPageBusContur {
+    border-radius: 32px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-width: 1px;
+    height: 39px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04);
+  }
+  .blogpagebusiness {
+    color: #162e3c;
+    text-align: center;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 30px);
+    top: 9px;
+    width: 60px;
+  }
+  .BlogPage_7minread {
+    color: $page-color;
+    text-align: center;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - -19.34px);
+    top: calc(50% - 10.5px);
+    width: 71px;
+  }
+  .BlogPage10MistakesText {
+    height: 99px;
+    position: absolute;
+    right: 0.09%;
+    left: 0%;
+    width: 99.91%;
+    top: 55px;
+  }
+  .BlogPageTop10mistakes {
+    color: $page-color;
+    text-align: center;
+    font-family: "Fraunces-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 700;
+    position: absolute;
+    left: calc(50% - 170.5px);
+    top: 2px;
+    width: 341px;
+  }
+  .BlogPageIpsum {
+    color: #49616e;
+    text-align: center;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 171.66px);
+    top: 163px;
+    width: 343px;
+  }
+  .BlogPageRMLink {
+    width: 121px;
+    height: 32px;
+    position: absolute;
+    left: calc(50% - 60.66px);
+    top: 306px;
+  }
+  .BlogPageReadMore {
+    color: $page-color;
+    text-align: center;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 20.5px);
+    top: calc(50% - 11px);
+    width: 81px;
+  }
+  .blogpageimage2 {
+    height: 32px;
+    position: absolute;
+    right: 73.55%;
+    left: 0%;
+    width: 26.45%;
+    top: calc(50% - 16px);
+    overflow: visible;
+  }
+  .BlogPageTopic2 {
+    height: 664px;
+    position: absolute;
+    right: 34.22%;
+    left: 34.14%;
+    width: 403px;
+    top: 0px;
+  }
+  .BlogPageText2 {
+    height: 362px;
+    position: absolute;
+    right: 0.08%;
+    left: 0.33%;
+    width: 99.59%;
+    top: 301px;
+  }
+  
+  .BlogPageTextContainer2 {
+    height: 225px;
+    position: absolute;
+    right: 5.95%;
+    left: 5.95%;
+    width: 88.1%;
+    top: 24px;
+  }
+  .BlogPageBusContainer2 {
+    width: 94px;
+    height: 39px;
+    position: absolute;
+    left: calc(50% - 92.99px);
+    top: calc(50% - 19.5px);
+  }
+  .BlogPage_11minread {
+    color: $page-color;
+    text-align: center;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - -17.01px);
+    top: calc(50% - 10.5px);
+    width: 75px;
+  }
+  .BlogPageEtAd_Placeat{
+    color: #49616e;
+    text-align: center;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 162.99px);
+    top: 130px;
+    width: 326px;
+  }
+  .blogpageframe17 {
+    height: 66px;
+    position: absolute;
+    right: 0.18%;
+    left: -0.09%;
+    width: 99.91%;
+    top: 55px;
+  }
+  .blogpagerectangle7 {
+    height: 66px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+  }
+  .BlogPageHowManyText {
+    color: $page-color;
+    text-align: center;
+    font-family: "Fraunces-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 700;
+    position: absolute;
+    left: calc(50% - 171.5px);
+    top: 2px;
+    width: 343px;
+  }
+  .blogpageframe18 {
+    width: 121px;
+    height: 32px;
+    position: absolute;
+    left: calc(50% - 60.99px);
+    top: 306px;
+  }
+  .blogpageimage3 {
+    height: 32px;
+    position: absolute;
+    right: 73.55%;
+    left: 0%;
+    width: 26.45%;
+    top: calc(50% - 16px);
+    overflow: visible;
+  }
+  .BlogPageTopic3 {
+    height: 664px;
+    position: absolute;
+    right: 0%;
+    left: 68.36%;
+    width: 403px;
+    top: 0px;
+  }
+
+  .BlogPageToolsContainer {
+    width: 70px;
+    height: 39px;
+    position: absolute;
+    left: calc(50% - 78.32px);
+    top: calc(50% - 19.5px);
+  }
+  .blogpagetools {
+    color: $page-color;
+    text-align: center;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 18px);
+    top: 9px;
+    width: 36px;
+  }
+  .BlogPage_5minread {
+    color: $page-color;
+    text-align: center;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - -7.68px);
+    top: calc(50% - 10.5px);
+    width: 71px;
+  }
+  .BlogPageEst_Est {
+    color: #49616e;
+    text-align: center;
+    font-family: "SpaceGrotesk-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 175.32px);
+    top: 130px;
+    width: 350px;
+  }
+  .BlogPageTwoBusinessTools {
+    color: $page-color;
+    text-align: center;
+    font-family: "Fraunces-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 700;
+    position: absolute;
+    left: calc(50% - 172.5px);
+    top: 2px;
+    width: 344px;
+  }
+  .blogpageimage4 {
+    height: 32px;
+    position: absolute;
+    right: 73.55%;
+    left: 0%;
+    width: 26.45%;
+    top: calc(50% - 16px);
+    overflow: visible;
+  }
+  .ViewAllContainer {
+    height: 52px;
+    position: absolute;
+    right: 45.7%;
+    left: 45.78%;
+    width: 8.52%;
+    top: 744px;
+  }
+  .ViewAllContur {
+    border-radius: 64px;
+    border-style: solid;
+    border-color: $page-color;
+    border-width: 2px;
+    height: 52px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+  }
+  .BlogPageViewAll {
+    color: $page-color;
+    text-align: center;
+    font-family: "SpaceGrotesk-Bold", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: calc(50% - 28.5px);
+    top: 14px;
+    width: 57px;
+  }

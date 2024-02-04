@@ -1,736 +1,129 @@
 import React from 'react';
-import './Customers.scss';
+import styles from './Customers.module.scss';
+import CustomersStars from '../../../UI/CustomersStars';
 
 const Customers= () => {
   return (
     <div>
-    <div class="customerframe2">
-    <div class="customerframe3">
-      <div class="customerrectangle"></div>
-      <div class="customerframe4">
-        <svg
-          class="customerimage"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_269)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_269">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage2"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_271)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_271">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage3"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_273)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_273">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage4"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_275)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_275">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage5"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_277)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_277">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
+    <div className={styles.CustomerContainer}>
+    <div className={styles.Customer1}>
+      <div className={styles.CustomerBackground1}></div>
+      <div className={styles.CustomerStarsContainer}>
+        <CustomersStars/>
       </div>
-      <div class="customerframe5">
-        <img class="customerimage6" src='/pictures/DanaHale.png' alt="Dana Hale" />
-        <div class="customerframe6">
-          <div class="customerdana-hale">Dana Hale</div>
-          <div class="customerui-ux-designer-iniry">UI/UX Designer, Iniry</div>
+      <div className={styles.CustomerInfoContainer1}>
+        <img className={styles.customerimage6} src='/pictures/DanaHale.png' alt="Dana Hale" />
+        <div className={styles.CustomerText1}>
+          <div className={styles.CustomerDanaHale}>Dana Hale</div>
+          <div className={styles.CustomerJob1}>UI/UX Designer, Iniry</div>
         </div>
       </div>
-      <div
-        class="customerpellentesque"
-      >
+      <div className={styles.CustomerPellentesque}>
         &quot;Pellentesque sodales libero nulla, ac imperdiet ante tincidunt
         vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In
         luctus convallis elit.&quot;
       </div>
     </div>
-    <div class="customerframe7">
-      <div class="customerrectangle2"></div>
-      <div class="customerframe4">
-        <svg
-          class="customerimage7"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_288)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_288">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage8"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_290)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_290">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage9"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_292)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_292">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage10"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_294)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_294">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage11"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_296)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_296">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
+    <div className={styles.Customer2}>
+      <div className={styles.CustomerBackground2}></div>
+      <div className={styles.CustomerStarsContainer}>
+        <CustomersStars/>
       </div>
-      <div class="customerframe5">
-        <img class="customerimage6" src='/pictures/TravisElton.png' alt="Travis Elton" />
-        <div class="customerframe8">
-          <div class="customertravis-elton">Travis Elton</div>
-          <div class="customersales-manager-kan-cod">Sales Manager, Kan-cod</div>
+      <div className={styles.CustomerInfoContainer1}>
+        <img className={styles.customerimage6} src='/pictures/TravisElton.png' alt="Travis Elton" />
+        <div className={styles.CustomerText2}>
+          <div className={styles.customertravisElton}>Travis Elton</div>
+          <div className={styles.CustomerJob2}>Sales Manager, Kan-cod</div>
         </div>
       </div>
-      <div
-        class="customeronec"
-      >
+      <div className={styles.CustomerDonec}>
         &quot;Donec sodales turpis sollicitudin sodales sodales. Proin blandit
         congue ante sed scelerisque. Etiam sed metus sapien aenean eu
         euismod.&quot;
       </div>
     </div>
-    <div class="customerframe9">
-      <div class="customerrectangle3"></div>
-      <div class="customerframe4">
-        <svg
-          class="customerimage12"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_307)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_307">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage13"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_309)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_309">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage14"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_311)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_311">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage15"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_313)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_313">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage16"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_315)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_315">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
+    <div className={styles.Customer3}>
+      <div className={styles.CustomerBackground3}></div>
+      <div className={styles.CustomerStarsContainer}>
+        <CustomersStars/>
       </div>
-      <div class="customerframe10">
-        <img class="customerimage6" src='/pictures/AnnaHanney.png' alt="Anna Hanney" />
-        <div class="customerframe11">
-          <div class="customeranna-hanney">Anna Hanney</div>
-          <div class="customerhead-of-design-betatech">Head of Design, Betatech</div>
+      <div className={styles.CustomerInfoContainer2}>
+        <img className={styles.customerimage6} src='/pictures/AnnaHanney.png' alt="Anna Hanney" />
+        <div className={styles.CustomerText3}>
+          <div className={styles.CustomerAnnaHanney}>Anna Hanney</div>
+          <div className={styles.CustomerJob3}>Head of Design, Betatech</div>
         </div>
       </div>
-      <div
-        class="customerin-eros"
-      >
+      <div className={styles.CustomerInEros}>
         &quot;In eros nunc, sagittis fermentum sagittis nec, porta vitae est.
         Sed felis nibh, commodo nec vestibulum in, tincidunt sodales lectus.
         Proin rutrum ut enim nec eleifend. Integer ante diam, imperdiet vel
         risus non, pretium placerat nisl.&quot;
       </div>
     </div>
-    <div class="customerframe12">
-      <div class="customerrectangle3"></div>
-      <div class="customerframe4">
-        <svg
-          class="customerimage17"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_326)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_326">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage18"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_328)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_328">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage19"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_330)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_330">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage20"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_332)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_332">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage21"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_334)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_334">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
+    <div className={styles.Customer4}>
+      <div className={styles.CustomerBackground3}></div>
+      <div className={styles.CustomerStarsContainer}>
+        <CustomersStars/>
       </div>
-      <div
-        class="customeraenean"
-      >
+      <div className={styles.CustomerAeneanEu}>
         &quot;Aenean eu euismod sapien. Maecenas maximus velit turpis, sit amet
         sodales felis condimentum interdum. Donec sit amet placerat nunc. Fusce
         ultricies ex et arcu maximus faucibus. Sed ac rhoncus justo.&quot;
       </div>
-      <div class="customerframe10">
-        <div class="customerframe13">
-          <div class="customerceo-sonron">CEO, Sonron</div>
-          <div class="customermonica-scarboro">Monica Scarboro</div>
+      <div className={styles.CustomerInfoContainer2}>
+        <div className={styles.CustomerText4}>
+          <div className={styles.CustomerCeoSonron}>CEO, Sonron</div>
+          <div className={styles.CustomerMonicaScarboro}>Monica Scarboro</div>
         </div>
-        <img class="customerimage6" src='/pictures/MonicaScarboro.png' alt="Monica Scarboro" />
+        <img className={styles.customerimage6} src='/pictures/MonicaScarboro.png' alt="Monica Scarboro" />
       </div>
     </div>
-    <div class="customerframe14">
-      <div class="customerrectangle4"></div>
-      <div class="customerframe4">
-        <svg
-          class="customerimage22"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_345)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_345">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage23"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_347)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_347">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage24"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_349)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_349">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage25"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_351)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_351">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage26"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_353)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_353">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
+    <div className={styles.Customer5}>
+      <div className={styles.CustomerBackground5}></div>
+      <div className={styles.CustomerStarsContainer}>
+        <CustomersStars/>
       </div>
-      <div
-        class="customerduis-at"
-      >
+      <div className={styles.CustomerDuisAt}>
         &quot;Duis at nisl nulla. Donec quis tortor tellus. Aenean sed turpis
         vulputate nunc dictum vulputate eu et sem. In dapibus elementum varius.
         Integer aliquet, ex at lacinia euismod, dolor nibh sodales ex.&quot;
       </div>
-      <div class="customerframe10">
-        <div class="customerframe15">
-          <div class="customercopywriter-openlane">Copywriter, Openlane</div>
-          <div class="customermegan-roston">Megan Roston</div>
+      <div className={styles.CustomerInfoContainer2}>
+        <div className={styles.CustomerText5}>
+          <div className={styles.CustomerJob5}>Copywriter, Openlane</div>
+          <div className={styles.CustomerMeganRoston}>Megan Roston</div>
         </div>
-        <img class="customerimage6" src='/pictures/MeganRoston.png' alt="Megan Roston" />
+        <img className={styles.customerimage6} src='/pictures/MeganRoston.png' alt="Megan Roston" />
       </div>
     </div>
-    <div class="customerframe16">
-      <div class="customerrectangle5"></div>
-      <div class="customerframe4">
-        <svg
-          class="customerimage27"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_364)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_364">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage28"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_366)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_366">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage29"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_368)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_368">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage30"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_370)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_370">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          class="customerimage31"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clip-path="url(#clip0_2_372)">
-            <path
-              d="M9.07088 0.644572C9.41462 -0.214858 10.5854 -0.214857 10.9291 0.644574L12.9579 5.71708C13.1029 6.0794 13.4306 6.32696 13.8067 6.35831L19.0727 6.79735C19.9649 6.87173 20.3267 8.02961 19.6469 8.63516L15.6348 12.2092C15.3482 12.4644 15.223 12.8651 15.3106 13.2466L16.5363 18.5905C16.744 19.4959 15.7969 20.2116 15.033 19.7264L10.5245 16.8627C10.2025 16.6581 9.7975 16.6581 9.47548 16.8627L4.96699 19.7264C4.20311 20.2116 3.25596 19.4959 3.46363 18.5905L4.68942 13.2466C4.77698 12.8651 4.65182 12.4644 4.36526 12.2092L0.353062 8.63516C-0.326718 8.02961 0.035068 6.87173 0.927291 6.79735L6.19336 6.35831C6.5695 6.32696 6.89716 6.0794 7.04207 5.71708L9.07088 0.644572Z"
-              fill="#C1D585"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_372">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
+    <div className={styles.Customer6}>
+      <div className={styles.CustomerBackground6}></div>
+      <div className={styles.CustomerStarsContainer}>
+        <CustomersStars/>
       </div>
-      <div
-        class="customerin-luctus"
-      >
+      <div className={styles.CustomerInLuctus}>
         &quot;In luctus convallis elit, vitae blandit elit volutpat a. Donec
         volutpat massa turpis, sed interdum dui aliquam id. Integer imperdiet
         odio sit amet faucibus auctor.&quot;
       </div>
-      <div class="customerframe5">
-        <div class="customerframe17">
-          <div class="customerfront-end-developer-dontechi">
+      <div className={styles.CustomerInfoContainer1}>
+        <div className={styles.CustomerText6}>
+          <div className={styles.CustomerJob6}>
             Front-end Developer, Dontechi
           </div>
-          <div class="customerkyle-camden">Kyle Camden</div>
+          <div className={styles.CustomerKyleCamden}>Kyle Camden</div>
         </div>
-        <img class="customerimage6" src='/pictures/KyleCamden.png' alt="Kyle Camden" />
+        <img className={styles.customerimage6} src='/pictures/KyleCamden.png' alt="Kyle Camden" />
       </div>
     </div>
   </div>
-  <div class="customerframe18">
-    <div
-      class="customereu-turpis"
-    >
-      Eu turpis vel, maximus condimentum turpis faucibus dictum accumsan.
+  <div className={styles.CustomerTitleContainer}>
+      <div className={styles.CustomerEuTurpis}>
+        Eu turpis vel, maximus condimentum turpis faucibus dictum accumsan.
+      </div>
+      <div className={styles.CustomerAWords}>A words from our customers</div>
     </div>
-    <div class="customera-words-from-our-customers">A words from our customers</div>
-  </div>
   </div>
   );
 }

@@ -1,54 +1,50 @@
 import React from 'react';
-import './StayUp.scss';
+import styles from './StayUp.module.scss';
 
 const StayUp = () => {
   return (
-    <div class="stayupframe">
-<div class="stayuprectangle"></div>
-<div class="stayupframe2">
-<div class="stayuprectangle2"></div>
-<div className="svg-container-stayup">
-<img src="/icons/StayUpSVG/StayUpSVG.svg" alt="StayUpSVG" />
-</div>
-<div class="stayupframe3">
-<div class="stayupframe4">
-<div class="stayuprectangle3"></div>
-<div
-  class="stayupetiam-volutpat-ligula-nec-orci-egestas-at-porta-massa-tempor-proin-rutrum-purus-in-convallis-pharetra-risus-leo-sagittis"
->
-  Etiam volutpat ligula nec orci egestas, at porta massa tempor. Proin
-  rutrum, purus in convallis pharetra, risus leo sagittis.
-</div>
-</div>
-<div class="stayupframe5">
-<form className="stayupframe6">
-  <div className="stayupenter-your-email">
-    <label className="input-label" htmlFor="email">Enter your email</label>
-    <input
-      type="email"
-      id="email"
-      name="email"
-      className="stayup-input"
-    />
-  </div>
-  <button type="submit" className="stayupsubscribe">Subscribe</button>
-</form>
-<div class="stayupframe7">
-  <div class="stayuprectangle6"></div>
-  <div
-    class="stayupby-clicking-subscribe-you-re-confirming-that-you-agree-with-our-terms-and-conditions"
-  >
-    By clicking Subscribe you&#039;re confirming that you agree with our
-    Terms and Conditions.
-  </div>
-</div>
-</div>
-<div class="stayupstay-up-to-date-with-the-latest-news-from-the-startup-world">
-Stay up to date with the latest news from the Startup world!
-</div>
-</div>
-</div>
-</div>
+    <div className={styles.stayUpContainer}>
+      <div className={styles.stayUpBackground}></div>
+      <div className={styles.StayUpMainPart}>
+        <div className={styles.StayUpGreenBack}></div>
+        <div className={styles.svgContainerStayUp}>
+          <img src="/icons/StayUpSVG/StayUpSVG.svg" alt="StayUpSVG" />
+        </div>
+        <div className={styles.StayUpTextContainer}>
+          <div className={styles.EtiamVolatpatContainer}>
+            <div className={styles.TextBackgroundEtiam}></div>
+            <div className={styles.EtiamVolatpat}>
+              Etiam volutpat ligula nec orci egestas, at porta massa tempor. Proin
+              rutrum, purus in convallis pharetra, risus leo sagittis.
+            </div>
+          </div>
+          <div className={styles.FormContainer}>
+            <form className={styles.StayUpForm}>
+              <div className={styles.stayUpEnterYourEmail}>
+                <label className={styles.inputLabel} htmlFor="email">Enter your email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  className={styles.stayUpInput}
+                />
+              </div>
+              <button type="submit" className={styles.stayUpSubscribe}>Subscribe</button>
+            </form>
+            <div className={styles.ByClickingContainer}>
+              <div className={styles.ByClickingBackground}></div>
+              <div className={styles.stayUpByClicking}>
+                By clicking Subscribe you're confirming that you agree with our
+                Terms and Conditions.
+              </div>
+            </div>
+          </div>
+          <div className={styles.stayUpStayUpToDate}>
+            Stay up to date with the latest news from the Startup world!
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 

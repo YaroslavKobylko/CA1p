@@ -1,18 +1,16 @@
 import React from 'react';
-import './BigPhoto.scss';
+import styles from './BigPhoto.module.scss';
 
 const BigPhoto = () => {
   return (
-    <div className="BigPhotoframe">
-      <div className="BigPhotorectangle"></div>
-      <div className="BigPhotoframe2">
-        <div className="BigPhotorectangle2"></div>
-        <img className="BigPhotoimage" src='/pictures/BigPhoto.png' alt="BigPhoto" />
-        <div className="BigPhotoframe3">
-          <div className="BigPhotorectangle3"></div>
-          <div className="BigPhotowatch-introduction">Watch Introduction</div>
+    <div className={styles.BigPhotoframe}>
+      <div className={styles.BigPhotobluepart}></div>
+      <div className={styles.BigPhotoPhotoContainer}>
+        <img className={styles.BigPhotoImage} src='/pictures/BigPhoto.png' alt="BigPhoto" />
+        <div className={styles.BigPhotoTextContainer}>
+          <div className={styles.BigPhotoButtonBackground}></div>
+          <div className={styles.BigPhotoWatchIntroduction}>Watch Introduction</div>
         </div>
-        <div className="BigPhotorectangle4"></div>
       </div>
     </div>
   );

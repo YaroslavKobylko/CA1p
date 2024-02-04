@@ -1,11 +1,11 @@
 import React from 'react';
-import './StayUpPage.scss';
+import styles from './StayUpPage.module.scss';
 import StayUp from '../../../components/StayUp';
 
 const StayUpPage = () => {
     return (
-        <section className='stayup-main'>
-          <div className='blue-background-stayup'></div>
+        <section className={styles.stayupMain}>
+            <div className={styles.blueBackgroundStayUp}></div>
             <StayUp />
         </section>
     );

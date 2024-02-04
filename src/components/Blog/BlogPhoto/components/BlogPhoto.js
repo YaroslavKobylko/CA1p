@@ -1,127 +1,108 @@
 import React from 'react';
-import './BlogPhoto.scss';
+import styles from './BlogPhoto.module.scss';
 
 const BlogPhoto = () => {
   return (
     <div>
-<div class="blogpageframe4">
-    <div class="blogpageframe5">
-      <div class="blogpagerectangle2"></div>
-      <div class="blogpageframe6">
-        <div class="blogpagerectangle3"></div>
-        <img class="blogpageimage" src='/pictures/Blog1.png' alt="Blog1" />
-      </div>
-      <div class="blogpageframe7">
-        <div class="blogpageframe8">
-          <div class="blogpageframe9">
-            <div class="blogpageframe10">
-              <div class="blogpagerectangle4"></div>
-              <div class="blogpagebusiness">Business</div>
+    <div className={styles.BlogPageTopic}>
+      <div className={styles.BlogPageTopic1}>
+        <div className={styles.BlogPageContur}></div>
+        <div className={styles.BlogPagePhoto1}>
+          <img className={styles.blogpageimage} src='/pictures/Blog1.png' alt="Blog1" />
+        </div>
+        <div className={styles.BlogPageText1}>
+          <div className={styles.BlogPageTextContainer1}>
+            <div className={styles.BlogPageMainText1}>
+              <div className={styles.BlogPageBusContainer}>
+                <div className={styles.BlogPageBusContur}></div>
+                <div className={styles.blogpagebusiness}>Business</div>
+              </div>
+              <div className={styles.BlogPage_7minread}>7 min read</div>
             </div>
-            <div class="blogpage_7-min-read">7 min read</div>
-          </div>
-          <div class="blogpageframe11">
-            <div class="blogpagerectangle5"></div>
-            <div
-              class="blogpagetop-10-mistakes-startaps-in-2022-make-and-how-to-avoid-them"
-            >
-              Top 10 mistakes startaps in 2022 make and how to avoid them
+            <div className={styles.BlogPage10MistakesText}>
+              <div className={styles.BlogPageTop10mistakes}>
+                Top 10 mistakes startaps in 2022 make and how to avoid them
+              </div>
+            </div>
+            <div className={styles.BlogPageIpsum}>
+              Ipsum nostrum nihil. Veniam sit eius sed non accusamus ut officiis.
+              Eligendi impedit rerum et beatae itaque corrupti. Sed nesciunt
+              delectus sequi harum d
             </div>
           </div>
-          <div
-            class="blogpageipsum-nostrum-nihil-veniam-sit-eius-sed-non-accusamus-ut-officiis-eligendi-impedit-rerum-et-beatae-itaque-corrupti-sed-nesciunt-delectus-sequi-harum-d"
-          >
-            Ipsum nostrum nihil. Veniam sit eius sed non accusamus ut officiis.
-            Eligendi impedit rerum et beatae itaque corrupti. Sed nesciunt
-            delectus sequi harum d
+          <div className={styles.BlogPageRMLink}>
+            <div className={styles.BlogPageReadMore}>Read more</div>
+            <img src="/icons/BlogSVG/BlogSVG.svg" alt="Blog Icon" />
           </div>
         </div>
-        <div class="blogpageframe12">
-        <div class="blogpagerectangle6"></div>
-        <div class="blogpageread-more">Read more</div>
-        <img src="/icons/BlogSVG/BlogSVG.svg" alt="Blog Icon" />
       </div>
+      <div className={styles.BlogPageTopic2}>
+  <div className={styles.BlogPageContur}>
+    <img className={styles.blogpageimage} src='/pictures/Blog2.png' alt="Blog2" />
+  </div>
+  <div className={styles.BlogPageText2}>
+    <div className={styles.BlogPageTextContainer2}>
+      <div className={styles.BlogPageMainText1}>
+        <div className={styles.BlogPageBusContainer}>
+          <div className={styles.BlogPageBusContur}></div>
+          <div className={styles.blogpagebusiness}>Business</div>
+        </div>
+        <div className={styles.BlogPage_11minread}>11 min read</div>
       </div>
-    </div>
-    <div class="blogpageframe13">
-      <div class="blogpagerectangle2"></div>
-      <div class="blogpageframe6">
-        <div class="blogpagerectangle3"></div>
-        <img class="blogpageimage" src='/pictures/Blog2.png' alt="Blog2" />
-      </div>
-      <div class="blogpageframe14">
-        <div class="blogpageframe15">
-          <div class="blogpageframe9">
-            <div class="blogpageframe16">
-              <div class="blogpagerectangle4"></div>
-              <div class="blogpagebusiness">Business</div>
-            </div>
-            <div class="blogpage_11-min-read">11 min read</div>
-          </div>
-          <div
-            class="blogpageet-ad-placeat-quo-rerum-earum-est-est-ea-perspiciatis-facere-voluptas-qui-sit-exercitationem-autem-qui-maxime-pariatur-nobis-est-et-culpa-itaque-consequatur"
+      <div
+            className={styles.BlogPageEtAd_Placeat}
           >
             Et ad placeat quo rerum earum. Est est ea perspiciatis facere
             voluptas qui sit exercitationem autem. Qui maxime pariatur nobis est
             et culpa itaque consequatur.
           </div>
-          <div class="blogpageframe17">
-            <div class="blogpagerectangle7"></div>
-            <div class="blogpagehow-many-participants-for-a-new-hire-interview">
-              How many participants for a new hire interview
-            </div>
-          </div>
+      <div className={styles.BlogPage10MistakesText}>
+        <div className={styles.BlogPageHowManyText}>
+          How many participants for a new hire interview
         </div>
-        <div class="blogpageframe18">
-        <div>
-        <div class="blogpagerectangle6"></div>
-        <div class="blogpageread-more">Read more</div>
-        <img src="/icons/BlogSVG/BlogSVG.svg" alt="Blog Icon" />
-      </div>
-      </div>
       </div>
     </div>
-    <div class="blogpageframe19">
-      <div class="blogpagerectangle2"></div>
-      <div class="blogpageframe6">
-        <div class="blogpagerectangle3"></div>
-        <img class="blogpageimage" src='/pictures/Blog3.png' alt="Blog3" />
+    <div className={styles.BlogPageRMLink}>
+        <div className={styles.BlogPageReadMore}>Read more</div>
+        <img src="/icons/BlogSVG/BlogSVG.svg" alt="Blog Icon" />
+    </div>
+  </div>
+</div>
+<div className={styles.BlogPageTopic3}>
+  <div className={styles.BlogPageContur}>
+    <img className={styles.blogpageimage} src='/pictures/Blog3.png' alt="Blog3" />
+  </div>
+  <div className={styles.BlogPageText2}>
+    <div className={styles.BlogPageTextContainer2}>
+      <div className={styles.BlogPageMainText1}>
+        <div className={styles.BlogPageToolsContainer}>
+          <div className={styles.BlogPageBusContur}></div>
+          <div className={styles.blogpagetools}>Tools</div>
+        </div>
+        <div className={styles.BlogPage_5minread}>5 min read</div>
       </div>
-      <div class="blogpageframe20">
-        <div class="blogpageframe15">
-          <div class="blogpageframe9">
-            <div class="blogpageframe21">
-              <div class="blogpagerectangle4"></div>
-              <div class="blogpagetools">Tools</div>
-            </div>
-            <div class="blogpage_5-min-read">5 min read</div>
-          </div>
-          <div
-            class="blogpageest-est-ea-perspiciatis-facere-voluptas-qui-sit-exercitationem-autem-et-ad-placeat-quo-rerum-earum-qui-maxime-pariatur-nobis-est-et-culpa-itaque-consequatur"
-          >
+      <div className={styles.BlogPageEst_Est}>
             Est est ea perspiciatis facere voluptas qui sit exercitationem
             autem. Et ad placeat quo rerum earum. Qui maxime pariatur nobis est
             et culpa itaque consequatur.
           </div>
-          <div class="blogpageframe22">
-            <div class="blogpagerectangle7"></div>
-            <div class="blogpagetwo-business-tools-that-have-made-my-job-way-easier">
-              Two business tools that have made my job way easier
-            </div>
-          </div>
+      <div className={styles.BlogPage10MistakesText}>
+        <div className={styles.BlogPageTwoBusinessTools}>
+          Two business tools that have made my job way easier
         </div>
-        <div class="blogpageframe23">
-        <div class="blogpagerectangle6"></div>
-        <div class="blogpageread-more">Read more</div>
-        <img src="/icons/BlogSVG/BlogSVG.svg" alt="Blog Icon" />
-      </div>
       </div>
     </div>
+    <div className={styles.BlogPageRMLink}>
+      <div className={styles.BlogPageReadMore}>Read more</div>
+      <img src="/icons/BlogSVG/BlogSVG.svg" alt="Blog Icon" />
+    </div>
   </div>
-  <div class="blogpageframe24">
-    <div class="blogpagerectangle8"></div>
-    <div class="blogpageview-all">View all</div>
-  </div>
+</div>
+<div className={styles.ViewAllContainer}>
+  <div className={styles.ViewAllContur}></div>
+  <div className={styles.BlogPageViewAll}>View all</div>
+</div>
+</div>
   </div>
   );
 }

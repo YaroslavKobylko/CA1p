@@ -1,0 +1,25 @@
+@import '../../../styles/variables';
+
+.stayupimage {
+  height: 153px;
+  position: absolute;
+  right: 5%;
+  left: 81.72%;
+  width: 13.28%;
+  top: -72px;
+  overflow: visible;
+}
+
+.stayupMain{
+  display: flex;
+  justify-content: center;
+}
+
+.blueBackgroundStayUp{
+  height: 242px;
+  width: 100%;
+  position: absolute;
+  background-color: $page-color;
+  margin-top: 242px;
+}
+
