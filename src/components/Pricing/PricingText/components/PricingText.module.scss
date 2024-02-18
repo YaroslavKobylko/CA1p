@@ -1,68 +1,47 @@
-.pricingTextContainer,
-.pricingTextContainer * {
-  box-sizing: border-box;
-}
-.pricingTextContainer {
+@import '../../../../styles/variables';
+@import '../../../../styles/mixins/font_mixins.scss';
+
+.TextContainer{
   width: 768px;
   height: 156px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.PriceButtonContainer {
+
+.Pricing{
   width: 77px;
   height: 32px;
-  position: absolute;
-  left: calc(50% - 38px);
-  top: 0px;
-}
-.PricingButtonContainer {
-  background: #ddf0a7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $primary-color;
   border-radius: 64px;
-  height: 32px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  top: 0px;
 }
-.PricingButtonText {
-  color: #162e3c;
-  text-align: center;
-  font-family: "SpaceGrotesk-Regular", sans-serif;
+
+.Pricing p{
   font-size: 15px;
-  line-height: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: calc(50% - 26.5px);
-  top: 4px;
-  width: 53px;
+  color: $page-color;
+  @include header-font;
 }
-.PricingPlan {
-  color: #162e3c;
-  text-align: center;
-  font-family: "Fraunces-Regular", sans-serif;
+
+.PricingPlan p{
   font-size: 48px;
-  line-height: 57.6px;
-  font-weight: 400;
-  position: absolute;
-  left: calc(50% - 159px);
-  top: 47px;
-  width: 319px;
+  color: $page-color;
+  @include customers-title;
+  margin: 0 0 8px 0;
 }
-.PricingSuspendisse {
-  color: #49616e;
-  text-align: center;
-  font-family: "SpaceGrotesk-Regular", sans-serif;
+
+.PricingSubtitle p{
   font-size: 17px;
-  line-height: 27px;
-  font-weight: 400;
-  position: absolute;
-  left: calc(50% - 250px);
-  top: 129px;
-  width: 500px;
+  color: $speedcolor;
+  @include morbi-font;
+  margin: 0px;
 }
 
 .PricingSVGContainer{
   margin-top: 32px;
   position: absolute;
-  margin-left: 980px;
+  margin-left: 1362px;
 }

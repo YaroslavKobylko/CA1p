@@ -2,109 +2,69 @@ import React from 'react';
 import styles from './BlogPhoto.module.scss';
 
 const BlogPhoto = () => {
+  const data = [
+    {
+      image: '/pictures/Blog1.png',
+      text1: 'Business',
+      text2: '7 min read',
+      text3: 'Top 10 mistakes startaps in 2022 make and how to avoid them',
+      text4: 'Ipsum nostrum nihil. Veniam sit eius sed non accusamus ut officiis. Eligendi impedit rerum et beatae itaque corrupti. Sed nesciunt delectus sequi harum d',
+      container: {
+        width: '355.33px',
+        height: '238px',
+      }
+    },
+    {
+      image: '/pictures/Blog2.png',
+      text1: 'Business',
+      text2: '11 min read',
+      text3: 'How many participants for a new hire interview',
+      text4: 'Et ad placeat quo rerum earum. Est est ea perspiciatis facere voluptas qui sit exercitationem autem. Qui maxime pariatur nobis est et culpa itaque consequatur.',
+      container: {
+        width: '355.33px',
+        height: '225px',
+      }
+    },
+    {
+      image: '/pictures/Blog3.png',
+      text1: 'Tools',
+      text2: '5 min read',
+      text3: 'Two business tools that have made my job way easier',
+      text4: 'Est est ea perspiciatis facere voluptas qui sit exercitationem autem. Et ad placeat quo rerum earum. Qui maxime pariatur nobis est et culpa itaque consequatur.',
+      container: {
+        width: '355.33px',
+        height: '225px',
+      }
+    },
+  ];
+
   return (
-    <div>
-    <div className={styles.BlogPageTopic}>
-      <div className={styles.BlogPageTopic1}>
-        <div className={styles.BlogPageContur}></div>
-        <div className={styles.BlogPagePhoto1}>
-          <img className={styles.blogpageimage} src='/pictures/Blog1.png' alt="Blog1" />
-        </div>
-        <div className={styles.BlogPageText1}>
-          <div className={styles.BlogPageTextContainer1}>
-            <div className={styles.BlogPageMainText1}>
-              <div className={styles.BlogPageBusContainer}>
-                <div className={styles.BlogPageBusContur}></div>
-                <div className={styles.blogpagebusiness}>Business</div>
+    <div className={styles.ContentContainer}>
+      {data.map((item, index) => (
+        <div className={styles.QuestionContainer} key={index}>
+          <div>
+            <img src={item.image} alt="Picture" width={402} height={300}/>
+          </div>
+          <div className={styles.TextContainer}>
+          <div className={styles.RecomendationContainer} style={{ width: item.container.width, height: item.container.height }}>
+              <div className={styles.CategoryContainer}>
+                <div className={styles.Category}>
+                  <p>{item.text1}</p>
+                </div>
+                <p className={styles.CategoryTime}>{item.text2}</p>
               </div>
-              <div className={styles.BlogPage_7minread}>7 min read</div>
+              <div className={styles.TitleConatiner}><p>{item.text3}</p></div>
+              <div className={styles.SubtitleConatiner}><p>{item.text4}</p></div>
             </div>
-            <div className={styles.BlogPage10MistakesText}>
-              <div className={styles.BlogPageTop10mistakes}>
-                Top 10 mistakes startaps in 2022 make and how to avoid them
+              <div className={styles.ReadMoreContainer}>
+                <div><img src="/icons/BlogSVG/BlogSVG.svg" alt="Blog Icon" width={32} height={32}/></div>
+                <div><p>Read more</p></div>
               </div>
-            </div>
-            <div className={styles.BlogPageIpsum}>
-              Ipsum nostrum nihil. Veniam sit eius sed non accusamus ut officiis.
-              Eligendi impedit rerum et beatae itaque corrupti. Sed nesciunt
-              delectus sequi harum d
-            </div>
-          </div>
-          <div className={styles.BlogPageRMLink}>
-            <div className={styles.BlogPageReadMore}>Read more</div>
-            <img src="/icons/BlogSVG/BlogSVG.svg" alt="Blog Icon" />
           </div>
         </div>
-      </div>
-      <div className={styles.BlogPageTopic2}>
-  <div className={styles.BlogPageContur}>
-    <img className={styles.blogpageimage} src='/pictures/Blog2.png' alt="Blog2" />
-  </div>
-  <div className={styles.BlogPageText2}>
-    <div className={styles.BlogPageTextContainer2}>
-      <div className={styles.BlogPageMainText1}>
-        <div className={styles.BlogPageBusContainer}>
-          <div className={styles.BlogPageBusContur}></div>
-          <div className={styles.blogpagebusiness}>Business</div>
-        </div>
-        <div className={styles.BlogPage_11minread}>11 min read</div>
-      </div>
-      <div
-            className={styles.BlogPageEtAd_Placeat}
-          >
-            Et ad placeat quo rerum earum. Est est ea perspiciatis facere
-            voluptas qui sit exercitationem autem. Qui maxime pariatur nobis est
-            et culpa itaque consequatur.
-          </div>
-      <div className={styles.BlogPage10MistakesText}>
-        <div className={styles.BlogPageHowManyText}>
-          How many participants for a new hire interview
-        </div>
-      </div>
+      ))}
     </div>
-    <div className={styles.BlogPageRMLink}>
-        <div className={styles.BlogPageReadMore}>Read more</div>
-        <img src="/icons/BlogSVG/BlogSVG.svg" alt="Blog Icon" />
-    </div>
-  </div>
-</div>
-<div className={styles.BlogPageTopic3}>
-  <div className={styles.BlogPageContur}>
-    <img className={styles.blogpageimage} src='/pictures/Blog3.png' alt="Blog3" />
-  </div>
-  <div className={styles.BlogPageText2}>
-    <div className={styles.BlogPageTextContainer2}>
-      <div className={styles.BlogPageMainText1}>
-        <div className={styles.BlogPageToolsContainer}>
-          <div className={styles.BlogPageBusContur}></div>
-          <div className={styles.blogpagetools}>Tools</div>
-        </div>
-        <div className={styles.BlogPage_5minread}>5 min read</div>
-      </div>
-      <div className={styles.BlogPageEst_Est}>
-            Est est ea perspiciatis facere voluptas qui sit exercitationem
-            autem. Et ad placeat quo rerum earum. Qui maxime pariatur nobis est
-            et culpa itaque consequatur.
-          </div>
-      <div className={styles.BlogPage10MistakesText}>
-        <div className={styles.BlogPageTwoBusinessTools}>
-          Two business tools that have made my job way easier
-        </div>
-      </div>
-    </div>
-    <div className={styles.BlogPageRMLink}>
-      <div className={styles.BlogPageReadMore}>Read more</div>
-      <img src="/icons/BlogSVG/BlogSVG.svg" alt="Blog Icon" />
-    </div>
-  </div>
-</div>
-<div className={styles.ViewAllContainer}>
-  <div className={styles.ViewAllContur}></div>
-  <div className={styles.BlogPageViewAll}>View all</div>
-</div>
-</div>
-  </div>
   );
-}
+};
 
 export default BlogPhoto;

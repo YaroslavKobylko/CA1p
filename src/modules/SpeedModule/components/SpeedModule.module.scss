@@ -1,0 +1,49 @@
+@import '../../../styles/variables';
+
+.SpeedModule{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SpeedMainContainer{
+  width: 1440px;
+  height: 856px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $white-color;
+  z-index: 1;
+}
+
+.ContentContainer{
+  width: 1280px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.svgContainerSpeed{
+    margin-bottom: 498px;
+    margin-left: 1370px;
+    position: absolute;
+}
+
+.speedImage {
+  border-radius: 32px;
+  object-fit: cover;
+}
+
+.speedIncreaseContainer{
+  height: 120px;
+  position: absolute;
+  margin-top: 382px;
+  margin-right: 404px;
+}
+
+.Rightpart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}

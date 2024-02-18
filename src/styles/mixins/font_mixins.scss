@@ -36,7 +36,7 @@
 @mixin HeadStart-font {
     font-family: "Fraunces-Regular";
     font-style: normal;
-    font-weight: 700;
+    font-weight: 1200;
     line-height: 67.2px;
   }
 
@@ -48,9 +48,93 @@
 }
 
 @mixin faster-than-font {
-    font-family: "Fraunces-Regular", sans-serif;;
+    font-family: "Fraunces-Regular";
     font-style: normal;
     font-weight: 400;
     line-height: 48px;
+}
+
+@mixin interest-font {
+    font-family: "Fraunces-Regular";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41.6px;
+}
+
+@mixin increasedsales-font {
+    font-family: "Fraunces-Regular";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+} 
+
+@mixin building-subtitle {
+    font-family: "Fraunces-Regular";
+    font-style: normal;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+@mixin svg-title {
+    font-family: "Fraunces-Regular";
+    font-style: normal;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+@mixin svg-subtitle {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+@mixin customers-title {
+    font-family: "Fraunces-Regular";
+    font-style: normal;
+    line-height: 57.6px;
+    font-weight: 400;
+}
+
+@mixin price-font {
+    font-family: "Fraunces-Regular";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67.2px;
+}
+
+@mixin per-months-font {
+  font-family: "Fraunces-Regular";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41.6px;
+}
+
+@mixin business-font {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+@mixin question-font {
+  font-family: "Fraunces-Regular";
+  font-style: normal;
+  line-height: 33.6px;
+  font-weight: 700;
+}
+
+@mixin email-font {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+@mixin description-font {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  line-height: 18px;
+  font-weight: 400;
 }
 

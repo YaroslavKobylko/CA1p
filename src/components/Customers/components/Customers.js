@@ -2,129 +2,148 @@ import React from 'react';
 import styles from './Customers.module.scss';
 import CustomersStars from '../../../UI/CustomersStars';
 
-const Customers= () => {
+const data = [
+  {  
+    text1: {
+      content: "\"Pellentesque sodales libero nulla, ac imperdiet ante tincidunt vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In luctus convallis elit.\"",
+      width: '542px'
+    }, 
+    svg: { 
+      src: '/pictures/DanaHale.png', 
+      alt: 'DanaHale',
+      width: '48px',
+      height: '48px',
+    },
+    text2: "Dana Hale", 
+    additionalText: "UI/UX Designer, Iniry" 
+  },
+  { 
+    text1: {
+      content: "\"In luctus convallis elit, vitae blandit elit volutpat a. Donec volutpat massa turpis, sed interdum dui aliquam id. Integer imperdiet odio sit amet faucibus auctor.\"",
+      width: '511px'
+    }, 
+    svg: { 
+      src: '/pictures/KyleCamden.png', 
+      alt: 'KyleCamden',
+      width: '48px',
+      height: '48px',
+    },
+    text2: "Kyle Camden", 
+    additionalText: "Front-end Developer, Dontechi" 
+  },
+  { 
+    text1: {
+      content:"\"Donec sodales turpis sollicitudin sodales sodales. Proin blandit congue ante sed scelerisque. Etiam sed metus sapien aenean eu euismod.\"",
+      width: '551px'
+    }, 
+    svg: { 
+      src: '/pictures/TravisElton.png', 
+      alt: 'TravisElton',
+      width: '48px',
+      height: '48px',
+    },
+    text2: "Travis Elton", 
+    additionalText: "Sales Manager, Kan-cod" 
+  },
+  { 
+    text1: {
+      content: "\"Aenean eu euismod sapien. Maecenas maximus velit turpis, sit amet sodales felis condimentum interdum. Donec sit amet placerat nunc. Fusce ultricies ex et arcu maximus faucibus. Sed ac rhoncus justo.\"",
+      width: '556px'
+    }, 
+    svg: { 
+      src: '/pictures/MonicaScarboro.png', 
+      alt: 'MonicaScarboro',
+      width: '48px',
+      height: '48px',
+    },
+    text2: "Monica Scarboro", 
+    additionalText: "CEO, Sonron" 
+  },
+  { 
+    text1: {
+      content: "\"In eros nunc, sagittis fermentum sagittis nec, porta vitae est. Sed felis nibh, commodo nec vestibulum in, tincidunt sodales lectus. Proin rutrum ut enim nec eleifend. Integer ante diam, imperdiet vel risus non, pretium placerat nisl.\"",
+      width: '538px'
+    },  
+    svg: { 
+      src: '/pictures/AnnaHanney.png', 
+      alt: 'AnnaHanney',
+      width: '48px',
+      height: '48px',
+    },
+    text2: "Anna Hanney", 
+    additionalText: "Head of Design, Betatech" 
+  },
+  { 
+    text1: {
+      content: "\"Duis at nisl nulla. Donec quis tortor tellus. Aenean sed turpis vulputate nunc dictum vulputate eu et sem. In dapibus elementum varius. Integer aliquet, ex at lacinia euismod, dolor nibh sodales ex.\"",
+      width: '537px'
+    }, 
+    svg: { 
+      src: '/pictures/MeganRoston.png', 
+      alt: 'MeganRoston',
+      width: '48px',
+      height: '48px',
+    },
+    text2: "Megan Roston", 
+    additionalText: "Copywriter, Openlane" 
+  },
+];
+
+const Customers = () => {
+  const firstThree = data.slice(0, 3);
+  const lastThree = data.slice(3);
+
   return (
-    <div>
-    <div className={styles.CustomerContainer}>
-    <div className={styles.Customer1}>
-      <div className={styles.CustomerBackground1}></div>
-      <div className={styles.CustomerStarsContainer}>
-        <CustomersStars/>
+    <div className={styles.ContentContainer}>
+      <div className={styles.TextContainer}>
+        <h2>A words from our customers</h2>
+        <p>Eu turpis vel, maximus condimentum turpis faucibus dictum accumsan.</p>
       </div>
-      <div className={styles.CustomerInfoContainer1}>
-        <img className={styles.customerimage6} src='/pictures/DanaHale.png' alt="Dana Hale" />
-        <div className={styles.CustomerText1}>
-          <div className={styles.CustomerDanaHale}>Dana Hale</div>
-          <div className={styles.CustomerJob1}>UI/UX Designer, Iniry</div>
+      <div className={styles.CustomersContainer}>
+        <div className={styles.FirstColumn}>
+          {firstThree.map((item, index) => (
+            <div className={styles.CustomerBackground} key={index}>
+              <div className={styles.Customer}>
+                <div>
+                  <CustomersStars/>
+                </div>
+                <div style={{ width: item.text1.width }}>
+                <p className={styles.CustomerMessage}>{item.text1.content}</p>
+              </div>
+                <div className={styles.CustomerInfo}>
+                <img src={item.svg.src} alt={item.svg.alt} width={item.svg.width} height={item.svg.height} />
+                  <div className={styles.CustomerText}>
+                    <p className={styles.CustomerName}>{item.text2}</p>
+                    <p className={styles.CustomerJob}>{item.additionalText}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className={styles.SecondColumn}>
+          {lastThree.map((item, index) => (
+            <div className={styles.CustomerBackground} key={index}>
+              <div className={styles.Customer}>
+                <div>
+                  <CustomersStars/>
+                </div>
+                <div style={{ width: item.text1.width }}>
+                <p className={styles.CustomerMessage}>{item.text1.content}</p>
+              </div>
+                <div className={styles.CustomerInfo}>
+                <img src={item.svg.src} alt={item.svg.alt} width={item.svg.width} height={item.svg.height} />
+                <div className={styles.CustomerText}>
+                    <p className={styles.CustomerName}>{item.text2}</p>
+                    <p className={styles.CustomerJob}>{item.additionalText}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-      <div className={styles.CustomerPellentesque}>
-        &quot;Pellentesque sodales libero nulla, ac imperdiet ante tincidunt
-        vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In
-        luctus convallis elit.&quot;
-      </div>
     </div>
-    <div className={styles.Customer2}>
-      <div className={styles.CustomerBackground2}></div>
-      <div className={styles.CustomerStarsContainer}>
-        <CustomersStars/>
-      </div>
-      <div className={styles.CustomerInfoContainer1}>
-        <img className={styles.customerimage6} src='/pictures/TravisElton.png' alt="Travis Elton" />
-        <div className={styles.CustomerText2}>
-          <div className={styles.customertravisElton}>Travis Elton</div>
-          <div className={styles.CustomerJob2}>Sales Manager, Kan-cod</div>
-        </div>
-      </div>
-      <div className={styles.CustomerDonec}>
-        &quot;Donec sodales turpis sollicitudin sodales sodales. Proin blandit
-        congue ante sed scelerisque. Etiam sed metus sapien aenean eu
-        euismod.&quot;
-      </div>
-    </div>
-    <div className={styles.Customer3}>
-      <div className={styles.CustomerBackground3}></div>
-      <div className={styles.CustomerStarsContainer}>
-        <CustomersStars/>
-      </div>
-      <div className={styles.CustomerInfoContainer2}>
-        <img className={styles.customerimage6} src='/pictures/AnnaHanney.png' alt="Anna Hanney" />
-        <div className={styles.CustomerText3}>
-          <div className={styles.CustomerAnnaHanney}>Anna Hanney</div>
-          <div className={styles.CustomerJob3}>Head of Design, Betatech</div>
-        </div>
-      </div>
-      <div className={styles.CustomerInEros}>
-        &quot;In eros nunc, sagittis fermentum sagittis nec, porta vitae est.
-        Sed felis nibh, commodo nec vestibulum in, tincidunt sodales lectus.
-        Proin rutrum ut enim nec eleifend. Integer ante diam, imperdiet vel
-        risus non, pretium placerat nisl.&quot;
-      </div>
-    </div>
-    <div className={styles.Customer4}>
-      <div className={styles.CustomerBackground3}></div>
-      <div className={styles.CustomerStarsContainer}>
-        <CustomersStars/>
-      </div>
-      <div className={styles.CustomerAeneanEu}>
-        &quot;Aenean eu euismod sapien. Maecenas maximus velit turpis, sit amet
-        sodales felis condimentum interdum. Donec sit amet placerat nunc. Fusce
-        ultricies ex et arcu maximus faucibus. Sed ac rhoncus justo.&quot;
-      </div>
-      <div className={styles.CustomerInfoContainer2}>
-        <div className={styles.CustomerText4}>
-          <div className={styles.CustomerCeoSonron}>CEO, Sonron</div>
-          <div className={styles.CustomerMonicaScarboro}>Monica Scarboro</div>
-        </div>
-        <img className={styles.customerimage6} src='/pictures/MonicaScarboro.png' alt="Monica Scarboro" />
-      </div>
-    </div>
-    <div className={styles.Customer5}>
-      <div className={styles.CustomerBackground5}></div>
-      <div className={styles.CustomerStarsContainer}>
-        <CustomersStars/>
-      </div>
-      <div className={styles.CustomerDuisAt}>
-        &quot;Duis at nisl nulla. Donec quis tortor tellus. Aenean sed turpis
-        vulputate nunc dictum vulputate eu et sem. In dapibus elementum varius.
-        Integer aliquet, ex at lacinia euismod, dolor nibh sodales ex.&quot;
-      </div>
-      <div className={styles.CustomerInfoContainer2}>
-        <div className={styles.CustomerText5}>
-          <div className={styles.CustomerJob5}>Copywriter, Openlane</div>
-          <div className={styles.CustomerMeganRoston}>Megan Roston</div>
-        </div>
-        <img className={styles.customerimage6} src='/pictures/MeganRoston.png' alt="Megan Roston" />
-      </div>
-    </div>
-    <div className={styles.Customer6}>
-      <div className={styles.CustomerBackground6}></div>
-      <div className={styles.CustomerStarsContainer}>
-        <CustomersStars/>
-      </div>
-      <div className={styles.CustomerInLuctus}>
-        &quot;In luctus convallis elit, vitae blandit elit volutpat a. Donec
-        volutpat massa turpis, sed interdum dui aliquam id. Integer imperdiet
-        odio sit amet faucibus auctor.&quot;
-      </div>
-      <div className={styles.CustomerInfoContainer1}>
-        <div className={styles.CustomerText6}>
-          <div className={styles.CustomerJob6}>
-            Front-end Developer, Dontechi
-          </div>
-          <div className={styles.CustomerKyleCamden}>Kyle Camden</div>
-        </div>
-        <img className={styles.customerimage6} src='/pictures/KyleCamden.png' alt="Kyle Camden" />
-      </div>
-    </div>
-  </div>
-  <div className={styles.CustomerTitleContainer}>
-      <div className={styles.CustomerEuTurpis}>
-        Eu turpis vel, maximus condimentum turpis faucibus dictum accumsan.
-      </div>
-      <div className={styles.CustomerAWords}>A words from our customers</div>
-    </div>
-  </div>
   );
 }
 

@@ -3,16 +3,15 @@ import styles from './BlogText.module.scss';
 
 const BlogText = () => {
   return (
-    <div className={styles.BlogPageTextContainer}>
-      <div>
-        <div className={styles.BlogPageButtonContainer}>
-          <div className={styles.BlogPageButtonBackground}></div>
-          <div className={styles.BlogPageButtonBlog}>Blog</div>
-        </div>
-        <div className={styles.BlogPageOurLatest}>Our latest blogs</div>
-        <div className={styles.BlogPageAccumsan}>
-          Accumsan semper euismod dolor vitae metus.
-        </div>
+    <div className={styles.TextContainer}>
+      <div className={styles.Blog}>
+        <p>Blog</p>
+      </div>
+      <div className={styles.LatestBlog}>
+        <p>Our latest blogs</p>
+      </div>
+      <div className={styles.BlogSubtitle}>
+        <p>Accumsan semper euismod dolor vitae metus.</p>
       </div>
     </div>
   );

@@ -1,4 +1,129 @@
 @import '../../../../styles/variables';
+@import '../../../../styles/mixins/font_mixins.scss';
+
+.ContentContainer{
+  height: 486px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Efficient{
+  background: $primary-color;
+  border-radius: 64px;
+  height: 32px;
+  width: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Efficient p{
+  font-size: 15px;
+  color: $page-color;
+  @include getstarted-font;
+}
+
+.TextContainer{
+  height: 164px;
+  width: 574px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.TitleText{
+  height: 48px;
+  width: 404px;
+  font-size: 40px;
+  @include faster-than-font;
+  color: $page-color;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.SubtitleText{
+  height: 54px;
+  width: 574px;
+  font-size: 18px;
+  color: $speedcolor;
+  @include morbi-font;
+  margin-top: 24px;
+}
+
+.Advantages{
+  height: 204px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NoMeetingContainer{
+  margin-top: 20px;
+  height: 188px;
+  width: 288px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.SVGContainer{
+  background: $primary-color;
+  border-radius: 16px;
+  height: 56px;
+  width: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NoMeetingTitle{
+  font-size: 20px;
+  color: $page-color;
+  @include svg-title;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 28px;
+  font-weight: bold;
+}
+
+.NoMeetingSubtitle{
+  font-size: 16px;
+  @include header-font;
+  color: $speedcolor;
+  height: 72px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.GetStartedContainer{
+  height: 52px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 34px;
+}
+
+.TryForContainer{
+  display: flex;
+  height: 16px;
+  width: 110px;
+  margin-left: 16px;
+  margin-bottom: 12px;
+}
+
+.TryForContainer p{
+  margin: 0px;
+  height: 16px;
+  width: 86px;
+}
+
+.TryForContainer img{
+  margin-left: 8px;
+  margin-top: 6px;
+}
 
 .straightMainContainer {
     height: 486px;

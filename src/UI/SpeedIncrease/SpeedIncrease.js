@@ -1,19 +1,22 @@
 import React from 'react';
+import styles from './SpeedIncrease.module.scss';
 
 const SpeedIncrease = () => {
-    return (
-<div className="svg-container">
-<div class="speedrectangle"></div>
-                    <div class="speedframe5">
-                      <div class="speedrectangle2"></div>
-                      <img class="speedimage-1" src={process.env.PUBLIC_URL + '/icons/SpeedIncreased.png'} alt="SpeedIncreasedPhoto" />
-                    </div>
-                    <div class="speedframe6">
-                      <div class="speedincreased-in-sales">Increased in sales</div>
-                      <div class="speed_86">86%</div>
-                    </div>
-                  </div>
-    );
+  return (
+    <div className={styles.IncreaseContainer}>
+      <div className={styles.SpeedSVGContainer}>
+        <img className={styles.SpeedSvg} src={process.env.PUBLIC_URL + '/icons/SpeedIncreased.png'} alt="SpeedIncreasedPhoto" width={48} height={48}/>
+      </div>
+      <div className={styles.TextContainer}>
+        <div className={styles.IncreasedTextContainer}>
+          <p >Increased in sales</p>
+        </div>
+        <div>
+          <p className={styles.interest}>86%</p>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default SpeedIncrease;

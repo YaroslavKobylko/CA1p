@@ -3,118 +3,75 @@
 
 .SpeedTextContainer {
     height: 304px;
-    position: absolute;
-    right: 0%;
-    left: 53.12%;
-    width: 46.88%;
-    top: 148px;
-  }
-  .SpeedButtonContainer {
-    height: 32px;
-    position: absolute;
-    right: 88%;
-    left: 0%;
-    width: 12%;
-    top: 0px;
-  }
-  .SpeedBackgroundContainer {
-    background: $primary-color;
-    border-radius: 64px;
-    height: 32px;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    top: 0px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
   }
   .speedSpeed {
     color: $page-color;
     text-align: left;
     @include getstarted-font;
     font-size: 15px;
-    position: absolute;
-    right: 16.67%;
-    left: 16.67%;
-    width: 66.67%;
-    top: 4px;
+    width: 72px;
     display: flex;
     justify-content: center;
-  }
-  .speedGetStartedContainer {
-    height: 52px;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    top: 252px;
+    align-items: center;
+    background: $primary-color;
+    border-radius: 64px;
+    height: 32px;
   }
 
-  .SpeedTrycontainer {
-    height: 16px;
-    position: absolute;
-    right: 55.83%;
-    left: 25.83%;
-    width: 18.33%;
-    top: calc(50% - 8px);
-  }
-
-  .SpeedTrycontainer img{
-    height: 16px;
-    position: absolute;
-    right: 0%;
-    left: 85.45%;
-    width: 14.55%;
-    top: calc(50% - 8px);
-    overflow: visible;
-  }
-
-  .SpeedTryBackground {
-    height: 16px;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    top: 0px;
-  }
-  .speedTryForFree {
-    color: $page-color;
-    text-align: left;
-    @include fast-try-to-font;
-    font-size: 15px;
-    position: absolute;
-    right: 21.82%;
-    left: 0%;
-    width: 78.18%;
-    top: calc(50% - 11px);
-  }
-  .speedFasterThanEver {
+  .SpeedTitle{
     color: $page-color;
     text-align: left;
     font-size: 40px;
     @include faster-than-font;
-    position: absolute;
-    right: 23.17%;
-    left: 0%;
-    width: 76.83%;
-    top: 47px;
+    width: 461px;
+    height: 48px;
   }
-  .speedMorbi{
-    color: #49616e;
+
+  .SpeedTitle p{
+    margin: 16px 0px;
+  }
+
+  .SpeedSubtitle{
+    color: $speedcolor;
     text-align: left;
     @include morbi-font;
     font-size: 18px;
-    position: absolute;
-    right: 0.67%;
-    left: 0%;
-    width: 99.33%;
-    top: 122px;
+    width: 596px;
+    height: 108px;
   }
-  .speedimage3 {
-    height: 92px;
-    position: absolute;
-    right: -10%;
-    left: 96.72%;
-    width: 13.28%;
-    top: 130px;
-    overflow: visible;
+
+  .SpeedSubtitle p{
+    margin-top: 40px;
+  }
+
+  .GetStartedContainer{
+    height: 52px;
+    width: 600px;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .TryForContainer{
+    height: 16px;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-left: 16px;
+    padding-bottom: 10px;
+  }
+
+  .TryForContainer img{
+    padding-top: 6px;
+  }
+
+  .TryForText{
+    color:$page-color;
+    @include fast-try-to-font;
   }

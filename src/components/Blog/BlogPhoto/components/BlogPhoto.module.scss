@@ -1,4 +1,134 @@
 @import '../../../../styles/variables';
+@import '../../../../styles/mixins/font_mixins.scss';
+
+.ContentContainer {
+  height: 664px;
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.QuestionContainer{
+  height: 664px;
+  width: 405px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 32px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.04);
+}
+
+.TextContainer{
+  display: flex;
+  flex-direction: column;
+  height: 362px;
+  width: 403.33px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.RecomendationContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.CategoryContainer{
+  height: 39px;
+  width: 355.33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.Category{
+  border-radius: 32px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  height: 39px;
+  width: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.Category p{
+  height: 21px;
+  font-size: 13px;
+  color: $page-color;
+  @include business-font;
+  margin: 0;
+}
+
+.CategoryTime{
+  height: 21px;
+  font-size: 14px;
+  color: $page-color;
+  @include business-font;
+  margin-left: 8px;
+}
+
+.TitleConatiner{
+  height: 101px;
+  width: 355px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TitleConatiner p{
+  margin: 0px;
+  font-size: 25px;
+  height: 101px;
+  width: 341px;
+  color: $page-color;
+  @include question-font ;
+  text-align: center;
+}
+
+.SubtitleConatiner{
+  height: 96px;
+  width: 343px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubtitleConatiner p{
+  margin: 0px;
+  height: 96px;
+  width: 343px;
+  font-size: 16px;
+  color: $speedcolor;
+  @include header-font;
+  text-align: center;
+}
+
+.ReadMoreContainer{
+  height: 32px;
+  width: 121px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ReadMoreContainer p{
+  margin: 0 0 6px 0;
+  height: 16px;
+  width: 81px;
+  text-align: center;
+  color: $page-color;
+  @include fast-try-to-font;
+  font-size: 15px;
+}
 
 .BlogPageTopic {
     height: 664px;

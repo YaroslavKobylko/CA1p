@@ -1,1 +1,1 @@
-export { default } from './components/Pricing';
+export { default } from './components/PricingPhoto';

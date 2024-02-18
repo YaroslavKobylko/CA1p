@@ -4,49 +4,41 @@ import GetStartedButton from '../../../../UI/GetStartedButton';
 
 const StraightText = () => {
   return (
-    <div className={styles.straightMainContainer}>
-      <div className={styles.straightEfficientContainer}>
-        <div className={styles.straightEfficientBackground}></div>
-        <div className={styles.straightEfficient}>Efficient</div>
+    <div className={styles.ContentContainer}>
+      <div className={styles.Efficient}>
+        <p>Efficient</p>
       </div>
-      <div className={styles.straightMainTextContainer}>
-        <div className={styles.straightMainText1 }>
-          <div className={styles.straightPhotoContainer}>
-            <div className={styles.straightPhotoBackground}></div>
-            <img className={styles.straightImage2} src='/icons/Straight1.png' alt="No meetings" />
+      <div className={styles.TextContainer}>
+        <p className={styles.TitleText}>Straight to the point</p>
+        <p className={styles.SubtitleText}>Vivamus ante dolor, condimentum eget dignissim vitae, malesuada sed urna. Aenean consequat risus tortor, quis porta.</p>
+      </div>
+      <div className={styles.Advantages}>
+        <div className={styles.NoMeetingContainer}>
+          <div className={styles.SVGContainer}>
+          <img className={styles.NoMeetingSVG} src='/icons/Straight1.png' alt="No meetings" width={32}  height={32}/>
           </div>
-          <div className={styles.straightNoMeetings}>No meetings</div>
-          <div className={styles.straightPorta}>
-            Porta non eros. Ut finibus viverra neque, sed vestibulum tellus
-            volutpat ac cras at massa.
-          </div>
+          <p className={styles.NoMeetingTitle}>No meetings</p>
+          <p className={styles.NoMeetingSubtitle}>Porta non eros. Ut finibus viverra neque, sed vestibulum tellus volutpat ac cras at massa.</p>
         </div>
-        <div className={styles.straightMainText2}>
-          <div className={styles.straightPhotoContainer}>
-            <div className={styles.straightPhotoBackground}></div>
-            <img className={styles.straightImage3} src='/icons/Straight2.png' alt="24/7" />
+        <div className={styles.NoMeetingContainer}>
+        <div className={styles.SVGContainer}>
+          <img className={styles.NoMeetingSVG}  src='/icons/Straight2.png' alt="24/7" width={32}  height={32} />
           </div>
-          <div className={styles.straight247Customer}>24/7 customer support</div>
-          <div className={styles.straightPraesent}>
-            Praesent consequat erat in orci lobortis, in accumsan orci vestibulum
-            nam et dictum.
-          </div>
+          <p className={styles.NoMeetingTitle}>24/7 customer support</p>
+          <p className={styles.NoMeetingSubtitle}>Praesent consequat erat in orci lobortis, in accumsan orci vestibulum nam et dictum.</p>
         </div>
       </div>
-      <div className={styles.GetStartedButtonContainer}>
-        <div className={styles.GetStartedButton}>
+      <div className={styles.GetStartedContainer}>
+        <div>
           <GetStartedButton />
         </div>
-        <div className={styles.straightSVGContainer}>
-          <div className={styles.straightSVGBackground}></div>
-          <img className={styles.straightImage} src='/icons/StraightSVG/StraightSVG1.svg' alt="StraightSVG" />
-          <div className={styles.straightTryForFree}>Try for free</div>
+        <div className={styles.TryForContainer}>
+          <p>Try for free</p>
+          <img src='/icons/StraightSVG/StraightSVG1.svg' alt="StraightSVG"  width={16}  height={16}/>
         </div>
       </div>
-      <div className={styles.straightStraightToThePoint}>Straight to the point</div>
-      <div className={styles.straightVivamus}>
-        Vivamus ante dolor, condimentum eget dignissim vitae, malesuada sed urna.
-        Aenean consequat risus tortor, quis porta.
+      <div>
+
       </div>
     </div>
   );

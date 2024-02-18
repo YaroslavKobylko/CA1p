@@ -1,4 +1,144 @@
 @import '../../../styles/variables';
+@import '../../../styles/mixins/font_mixins.scss';
+
+.FooterContainer{
+  width: 100%;
+  height: 835px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $page-color;
+}
+
+.Footer{
+  width: 1280px;
+  height: 835px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ContentContainer{
+  width: 1280px;
+  height: 521px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: 62px;
+  margin-bottom: 45px;
+}
+
+.LeftPart{
+  width: 499.2px;
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.LogoConatiner{
+  width: 112px;
+  height: 29px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ContactContainer{
+  width: 499.2px;
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Adress{
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactContainer p{
+  height: 21px;
+  color: $white-color;
+  @include business-font;
+  margin: 0;
+  font-size: 14px;
+}
+
+.RightPart{
+  width: 665.59px;
+  height: 521px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Pages{
+  width: 200.53px;
+  height: 521px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Pages p{
+  height: 37px;
+  margin: 0;
+  align-items: center;
+  font-size: 14px;
+  @include business-font;
+  color: $white-color;
+}
+
+.Pages .First{
+  margin-bottom: 10px;
+  @include header-font;
+  font-size: 15px;
+}
+
+.LineContainer{
+  background: #223e4e;
+  height: 1px;
+}
+
+.BottomContainer{
+  width: 1280px;
+  height: 41.11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px
+}
+
+.TextContainer{
+  width: 351px;
+  height: 21px;
+  display: flex;
+}
+
+.TextContainer p{
+  color: $white-color;
+  margin: 0;
+  @include business-font;
+  font-size: 14px;
+}
+
+.SVGConatiner{
+  width: 136px;
+  height: 41.11px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SocialContainer{
+  width: 40px;
+  height: 41px;
+  background: $primary-color;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .footercontainer,
 .footercontainer * {

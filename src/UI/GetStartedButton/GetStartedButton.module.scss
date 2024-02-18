@@ -3,17 +3,15 @@
 
 .buttonGetStarted {
   width: 139px;
-  top: calc(50% - 26px);
   border-radius: 64px;
   border-style: solid;
   border-color: $page-color;
   border-width: 2px;
   height: 52px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  top: 0px;
-  background-color: #fff;
+  background-color: $white-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
 
@@ -22,8 +20,5 @@
   text-align: center;
   @include header-font;
   font-size: 15px;
-  position: absolute;
-  left: calc(50% - 43.5px);
-  top: calc(50% - 12px);
   width: 87px;
 }

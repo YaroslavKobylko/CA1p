@@ -1,0 +1,30 @@
+.pricingContainer,
+.pricingContainer * {
+  box-sizing: border-box;
+}
+.pricingContainer {
+  width: 1280px;
+  height: 968px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 128px;
+}
+
+.pricing {
+    border-radius: 48px;
+    width: 1280px;
+    height: 898px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pricingPage{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }

@@ -23,7 +23,7 @@
 .BigPhotoPhotoContainer {
   width: 1280px;
   height: 640px;
-  position: absolute;
+  position: relative;
   left: calc(50% - 640px);
   top: calc(50% - 320px);
   overflow: hidden;
@@ -43,8 +43,6 @@
   left: 39.38%;
   width: 18.2%;
   top: 274px;
-}
-.BigPhotoButtonBackground {
   background: $primary-color;
   border-radius: 64px;
   border-style: solid;
@@ -52,11 +50,9 @@
   border-width: 2px;
   height: 52px;
   position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  top: 0px;
+  cursor: pointer;
 }
+
 .BigPhotoWatchIntroduction {
   color: $page-color;
   text-align: center;
@@ -64,6 +60,6 @@
   @include getstarted-font;
   position: absolute;
   left: calc(50% - 74.5px);
-  top: 14px;
+  top: 13px;
   width: 149px;
 }

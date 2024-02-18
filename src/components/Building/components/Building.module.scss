@@ -1,120 +1,151 @@
 @import '../../../styles/variables';
+@import '../../../styles/mixins/font_mixins.scss';
 
-.buildingsvg4image,
-.buildingsvg4image * {
-  box-sizing: border-box;
-}
-.buildingsvg4image {
-  width: 180px;
-  height: 206px;
+.BackgroundContainer{
+  background: $primary-color;
+  border-radius: 48px;
+  width: 1280px;
+  height: 898px;
   position: relative;
-  overflow: visible;
-  margin: -200px 32px 764px 1006px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.BuildingTextContainer {
+
+.ContentContainer{
+  width: 1152px;
+  height: 642px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.TextContainer{
+  width: 768px;
+  height: 174px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 38px;
+}
+
+.TitleText{
+  width: 704px;
+  height: 96px;
+  color: $page-color;
+  text-align: center;
+  font-size: 42px;
+  @include faster-than-font;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.SubtitleText{
+  margin-top: 12px;
+  width: 744px;
+  height: 54px;
+  color: $page-color;
+  text-align: center;
+  font-size: 18px;
+  @include building-subtitle;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.AdvantagesContainer{
+  width: 1152px;
+  height: 304px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.Advantage{
+  width: 362.66px;
+  height: 304px;
+  background: $page-color;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.SVGContainer{
+  width: 101px;
+  height: 100px;
+}
+
+.SVGContainer img{
+  margin-top: 33px;
+}
+
+.Advantage h2{
+  margin-top: 37px;
+  @include svg-title;
+  font-size: 20px;
+  color: $white-color;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.Advantage p{
+  @include svg-subtitle;
+  font-size: 15px;
+  text-align: center;
+  color: $white-color;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.GetStartedContainer{
   width: 265px;
   height: 52px;
-  position: absolute;
-  left: calc(50% - 132.5px);
-  top: 590px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.GetStartrdButton {
+
+.GetStartedButton{
   width: 139px;
   height: 52px;
-  position: absolute;
-  left: calc(50% - 132px);
-  top: calc(50% - 26px);
-}
-.GetStartedFrame {
   border-radius: 64px;
   border-style: solid;
   border-color: $page-color;
   border-width: 2px;
-  height: 52px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  top: 0px;
+  background-color: $primary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.buildinggetstarted {
-  color: $page-color;
+
+.GetStartedButton p{
+  @include getstarted-font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 700;
-  position: absolute;
-  left: calc(50% - 43.5px);
-  top: calc(50% - 12px);
   width: 87px;
+  height: 24px;
 }
-.SVGContainerTFF {
+
+.TryForContainer{
   width: 110px;
   height: 16px;
-  position: absolute;
-  left: calc(50% - -23px);
-  top: calc(50% - 8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.buildingrectangle3 {
-  height: 16px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  top: 0px;
+
+.TryForContainer img{
+  margin-left: 8px;
 }
-.buildingimage4 {
-  height: 16px;
+
+.svgContainerBuilding1{
   position: absolute;
-  right: 0%;
-  left: 85.45%;
-  width: 14.55%;
-  top: calc(50% - 8px);
-  overflow: visible;
-}
-.buildingtryforfree {
-  color: $page-color;
-  text-align: left;
-  font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 15px;
-  line-height: 16px;
-  font-weight: 700;
-  position: absolute;
-  right: 14.55%;
-  left: 7.27%;
-  width: 78.18%;
-  top: calc(50% - 8px);
-}
-.BuildingTopText {
-  height: 174px;
-  position: absolute;
-  right: 16.67%;
-  left: 16.67%;
-  width: 66.67%;
-  top: 0px;
-}
-.buildingyour{
-  color: $page-color;
-  text-align: center;
-  font-family: "Fraunces-Regular", sans-serif;
-  font-size: 40px;
-  line-height: 48px;
-  font-weight: 400;
-  position: absolute;
-  left: calc(50% - 352px);
-  top: -1px;
-  width: 704px;
-}
-.aeneandui{
-  color: $page-color;
-  text-align: center;
-  font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: 400;
-  position: absolute;
-  left: calc(50% - 372px);
-  top: 122px;
-  width: 744px;
+  margin-left: 1035px;
+  margin-bottom: 830px;
 }

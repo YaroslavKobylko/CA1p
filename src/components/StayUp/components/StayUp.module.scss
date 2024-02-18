@@ -1,9 +1,126 @@
 @import '../../../styles/variables';
+@import '../../../styles/mixins/font_mixins.scss';
+
+.ContentBackground{
+  background: $primary-color;
+  border-radius: 48px;
+  height: 484px;
+  width: 1280px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContentContainer{
+  height: 292px;
+  width: 768px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FormContainer {
+  height: 86px;
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Form{
+  height: 52px;
+  width: 512px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FormBackground{
+  height: 52px;
+  width: 368px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.InputBackground{
+  border-radius: 64px;
+  border-style: none;
+  border-width: 2px;
+  height: 52px;
+  width: 368px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $white-color;
+}
+
+.InputLabel{
+  position: absolute;
+  height: 27px;
+  width: 142px;
+  font-size: 18px;
+  color: $page-color;
+  @include email-font;
+  padding-left: 42px;
+}
+
+.SubscribeButton{
+  background: $page-color;
+  border-radius: 64px;
+  height: 52px;
+  width: 128px;
+  border-style: none;
+  color: $white-color;
+  font-size: 18px;
+  @include email-font;
+}
 
 .svgContainerStayUp{
-    margin-left: 1046px;
-    margin-top: -72px;
-    position: relative;
+    margin-left: 982px;
+    margin-top: -472px;
+    position: absolute;
+}
+
+.TitleText{
+  height: 96px;
+  width: 698px;
+  font-size: 40px;
+  color: $page-color;
+  @include faster-than-font;
+}
+
+.TitleText p{
+  margin: 0;
+  text-align: center;
+}
+
+.SubtitleText{
+  height: 54px;
+  width: 768px;
+  font-size: 18px;
+  color: $page-color;
+  @include morbi-font;
+}
+
+.SubtitleText p{
+  margin: 0;
+  text-align: center;
+}
+
+.Description{
+  height: 18px;
+  width: 498px;
+}
+
+.Description p{
+  font-size: 11px;
+  color: $page-color;
+  @include description-font;
 }
 
 .stayUpSubscribe{
@@ -129,14 +246,6 @@
   left: calc(50% - 363px);
   top: 2px;
   width: 727px;
-}
-.FormContainer {
-  height: 86px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  top: 206px;
 }
 .StayUpForm {
   width: 512px;

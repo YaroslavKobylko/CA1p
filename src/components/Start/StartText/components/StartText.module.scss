@@ -1,0 +1,110 @@
+@import '../../../../styles/variables';
+@import '../../../../styles/mixins/font_mixins.scss';
+
+.MainContainer{
+  width: 1440px;
+  height: 633px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContentContainer{
+  display: flex;
+  width: 768px;
+  height: 433px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  
+}
+
+.TextContainer{
+  display: flex;
+  width: 768px;
+  max-height: 242px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.TitleText{
+  color: $white-color;
+  text-align: center;
+  font-size: 60px;
+  @include HeadStart-font;
+  width: 695px;
+  height: 135px;
+  margin-top: -4px;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+}
+
+.SubtitleText{
+  color: $white-color;
+  text-align: center;
+  @include consectetur-font;
+  font-size: 20px;
+  top: 160px;
+  width: 713px;
+  margin-top: 25px;
+}
+
+.GetStartedContainer{
+  margin-top: 2px;
+  width: 768px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.getStarted{
+  color: $page-color;
+  text-align: center;
+  font-size: 15px;
+  @include getstarted-font;
+  background: $primary-color;
+  border-radius: 64px;
+  border-style: solid;
+  border-color: $primary-color;
+  border-width: 2px;
+  height: 48px;
+  min-width: 135px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.TryForfreeText{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $white-color;
+  text-align: center;
+  @include try-for-free-font;
+  font-size: 15px;
+  height: 48px;
+  min-width: 139px;
+}
+
+.TryForfreeText p{
+  padding-left: 32px;
+  padding-bottom: 2px;
+}
+
+.SVGContainer{
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.Partners{
+  margin-top: 56px;
+  display: flex;
+  width: 768px;
+  justify-content: center;
+  align-items: center;
+  gap: 32px
+}

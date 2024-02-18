@@ -1,0 +1,45 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins/font_mixins.scss';
+
+.blogpageContainer,
+.blogpageContainer * {
+  box-sizing: border-box;
+}
+.blogpageContainer {
+  width: 1280px;
+  height: 1288px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 88px 0 88px 0;
+}
+
+.blogpageMain{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  background-color: $white-color;
+}
+
+.ViewAllContainer{
+  width: 109px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 64px;
+  border-style: solid;
+  border-color: $page-color;
+  border-width: 2px;
+  background-color: $white-color;
+  cursor: pointer;
+}
+
+.ViewAllContainer p{
+  color: $page-color;
+  font-size: 15px;
+  @include getstarted-font ;
+}

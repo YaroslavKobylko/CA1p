@@ -1,4 +1,109 @@
 @import '../../../styles/variables';
+@import '../../../styles/mixins/font_mixins.scss';
+
+.ContentContainer{
+  height: 1148px;
+  width: 1280px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.CustomersContainer{
+  height: 960px;
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 62px;
+}
+
+.TextContainer{
+  height: 108px;
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.TextContainer h2{
+  @include customers-title;
+  text-align: center;
+  font-size: 48px;
+  color: $white-color;
+  margin-bottom: 6px;
+  margin-top: 0px;
+}
+
+.TextContainer p{
+  @include morbi-font;
+  text-align: center;
+  font-size: 17px;
+  color: $white-color;
+}
+
+.CustomerBackground{
+  background: $white-color;
+  border-radius: 32px;
+  height: 256px;
+  width: 624px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 46px;
+  margin-right: 16px;
+  margin-left: 16px;
+  position: relative;
+}
+
+.Customer{
+  padding-top: 18px;
+  padding-left: 32px;
+  height: 197px;
+  width: 624px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.SecondColumn{
+  margin-top: 80px;
+}
+
+.SecondColumn .CustomerBackground{
+  margin-bottom: 64px;
+}
+
+.CustomerMessage{
+  font-size: 18px;
+  color: $speedcolor;
+  @include morbi-font;
+}
+
+.CustomerInfo{
+  display: flex;
+  height: 48px;
+  width: 560px;
+}
+
+.CustomerText{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.CustomerName{
+  @include header-font;
+  font-size: 15px;
+  color: $page-color;
+  margin: 0px;
+}
+
+.CustomerJob{
+  margin: 0px;
+  font-size: 16px;
+  color: $speedcolor;
+  @include header-font;
+}
 
 .CustomerContainer {
     height: 960px;

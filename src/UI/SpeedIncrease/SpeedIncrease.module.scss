@@ -1,0 +1,62 @@
+@import '../../styles/variables';
+@import '../../styles/mixins/font_mixins.scss';
+
+.TextContainer{
+  display: flex;
+  flex-direction: column-reverse;
+  height: 71px;
+  width: 175px;
+  margin-left: 23px;
+}
+
+.IncreaseContainer{
+  display: flex;
+  width: 420px;
+  height: 120px;
+  flex-direction: row-reverse;
+  background: $primary-color;
+  border-radius: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SpeedSVGContainer{
+  background: $page-color;
+  border-radius: 16px;
+  height: 72px;
+  width: 72px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+}
+
+.SpeedSvg{
+  object-fit: cover;
+  position: relative;
+}
+
+.IncreasedTextContainer{
+  width: 175px;
+  height: 30px;
+}
+
+.IncreasedTextContainer p{
+  color: $page-color;
+  @include increasedsales-font;
+  font-size: 20px;
+  width: 100%;
+  margin: 0px;
+}
+
+.interest{
+  color: $page-color;
+  @include interest-font;
+  font-size: 32px;
+  width: 68px;
+  height: 42px;
+  margin: 0px;
+}
+
+  
