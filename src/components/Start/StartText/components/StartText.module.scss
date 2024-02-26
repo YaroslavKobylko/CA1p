@@ -31,13 +31,12 @@
 .TitleText{
   color: $white-color;
   text-align: center;
-  font-size: 60px;
+  font-size: 56px;
   @include HeadStart-font;
   width: 695px;
   height: 135px;
   margin-top: -4px;
   margin-bottom: 0px;
-  letter-spacing: 1px;
 }
 
 .SubtitleText{

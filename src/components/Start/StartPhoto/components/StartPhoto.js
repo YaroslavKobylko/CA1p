@@ -5,13 +5,13 @@ const StartPhoto = () => {
   return (
     <div>
       <div className={styles.image1}>
-        <img src="/icons/VstavkaMain/VstavkaMain1.svg" alt="MainSVG" />
+        <img src="/icons/VstavkaMain/Start1.svg" alt="MainSVG" width={270} height={250}/>
       </div>
       <div className={styles.image2}>
-        <img src="/icons/VstavkaMain/VstavkaMain2.svg" alt="MainSVG" />
+        <img src="/icons/VstavkaMain/Start2.svg" alt="MainSVG" width={240} height={260}/>
       </div>
       <div className={styles.image3}>
-        <img src="/icons/VstavkaMain/VstavkaMain3.svg" alt="MainSVG" />
+        <img src="/icons/VstavkaMain/Start3.svg" alt="MainSVG" width={320} height={275}/>
       </div>
     </div>
   );

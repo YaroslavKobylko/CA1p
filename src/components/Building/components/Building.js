@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Building.module.scss';
 
-const Container = ({ svg, title, subtitle }) => (
+const Benefits = ({ svg, title, subtitle }) => (
   <div className={styles.Advantage}>
     <div className={styles.SVGContainer}>{svg}</div>
     <h2>{title}</h2>
@@ -42,7 +42,7 @@ const Building = () => {
       </div>
       <div className={styles.AdvantagesContainer}>
           {data.map((item, index) => (
-            <Container 
+            <Benefits
               key={index} 
               svg={item.svg} 
               title={item.title} 
@@ -55,7 +55,8 @@ const Building = () => {
           <p>Get started</p>
         </button>
         <div className={styles.TryForContainer}>
-          <a>Try for free</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+          <a href="#" className={styles.TryForLink}>Try for free</a>
           <img src="/icons/BuildingSVG/Building.svg" alt="Building" />
         </div>
       </div>

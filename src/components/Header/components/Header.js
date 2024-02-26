@@ -8,7 +8,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <div className={styles.headerLogo}>
-          <img src="/icons/HeaderSVG/HeaderSVG.svg" alt="HeaderLogo" />
+          <img src="/icons/HeaderSVG/HeaderSVG.svg" alt="HeaderLogo" width={112} height={28}/>
         </div>
         <nav className={styles.headerNav}>
           <ul className={styles.ulclass}>
