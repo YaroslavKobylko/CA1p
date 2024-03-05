@@ -30,7 +30,7 @@ const StayUp = () => {
           </div>
       </div>
       <div className={styles.svgContainerStayUp}>
-          <img src="/icons/StayUpSVG/StayUpSVG.svg" alt="StayUpSVG" />
+          <img src="/icons/StayUpSVG/StayUpSVG.svg" alt="StayUpSVG" width={170} height={153}/>
         </div>
     </div>
   );

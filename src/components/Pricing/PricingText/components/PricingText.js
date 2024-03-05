@@ -14,8 +14,8 @@ const PricingText = () => {
         <p>Suspendisse mattis porttitor gravida et malesuada fames.</p>
       </div>
       <div className={styles.PricingSVGContainer}>
-            <img src="/icons/PricingSVG/PricingSVG.svg" alt="PricingSVG" />
-            </div>
+        <img src="/icons/PricingSVG/PricingSVG.svg" alt="PricingSVG" width={170} height={92}/>
+      </div>
     </div>
   );
 }

@@ -57,12 +57,12 @@ const Building = () => {
         <div className={styles.TryForContainer}>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className={styles.TryForLink}>Try for free</a>
-          <img src="/icons/BuildingSVG/Building.svg" alt="Building" />
+          <img src="/icons/BuildingSVG/Building.svg" alt="Building" width={16} height={16}/>
         </div>
       </div>
       </div>
       <div className={styles.svgContainerBuilding1}>
-            <img src="/icons/BuildingSVG/BuildingSVG4.svg" alt="BuildingSVG4" />
+            <img src="/icons/BuildingSVG/BuildingSVG4.svg" alt="BuildingSVG4" width={180} height={206}/>
       </div>
     </div>
   );
