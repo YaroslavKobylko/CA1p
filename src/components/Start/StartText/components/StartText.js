@@ -13,14 +13,14 @@ const StartText = () => {
           <div className={styles.getStarted}>Get started</div>
         <div className={styles.TryForfreeText}>
           <p>Try for free</p>
-          <div className={styles.SVGContainer}><img src="\icons\VstavkaMainText\StartTry.svg" alt="Try" width={16} height={16}/></div>
+          <div className={styles.SVGContainer}><img src="\icons\StartText\StartTry.svg" alt="Try" width={16} height={16}/></div>
           </div>
       </div>
       <div className={styles.Partners}>
-        <img src="/icons/VstavkaMainText/StartText4.svg" alt="VstavkaMain" width={132} height={35}/>
-        <img src="/icons/VstavkaMainText/StartText1.svg" alt="VstavkaMain" width={132} height={35}/>
-        <img src="/icons/VstavkaMainText/StartText3.svg" alt="VstavkaMain" width={132} height={35}/>
-        <img src="/icons/VstavkaMainText/StartText2.svg" alt="VstavkaMain" width={132} height={35}/>
+        <img src="/icons/StartText/StartText4.svg" alt="Partners" width={132} height={35}/>
+        <img src="/icons/StartText/StartText1.svg" alt="Partners" width={132} height={35}/>
+        <img src="/icons/StartText/StartText3.svg" alt="Partners" width={132} height={35}/>
+        <img src="/icons/StartText/StartText2.svg" alt="Partners" width={132} height={35}/>
       </div>
       </div>
       </div>

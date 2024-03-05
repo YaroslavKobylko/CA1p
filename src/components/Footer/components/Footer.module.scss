@@ -960,6 +960,12 @@
   overflow: visible;
 }
 
+.LinkToSocial{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 .footer{
     display: flex;
     justify-content: center;
