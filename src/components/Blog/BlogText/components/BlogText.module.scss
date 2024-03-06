@@ -21,9 +21,10 @@
 }
 
 .Blog p{
-  font-size: 15px;
+  font-size: 16px;
   color: $page-color;
   @include header-font;
+  font-weight: 700;
 }
 
 .LatestBlog p{
@@ -31,10 +32,11 @@
   color: $page-color;
   @include customers-title;
   margin: 0 0 8px 0;
+  font-weight: 700;
 }
 
 .BlogSubtitle p{
-  font-size: 17px;
+  font-size: 18px;
   color: $speedcolor;
   @include morbi-font;
   margin: 0px;

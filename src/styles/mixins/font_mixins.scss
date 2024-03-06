@@ -1,9 +1,23 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../../styles/fonts/Space-Grotesk/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('../fonts/Fraunces/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @mixin header-font {
-    font-family: "Space Grotesk";
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-  }
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
 
 @mixin getstarted-font {
     font-family: "Space Grotesk";
@@ -66,7 +80,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-} 
+}  
 
 @mixin building-subtitle {
     font-family: "Fraunces";
@@ -104,6 +118,13 @@
 }
 
 @mixin per-months-font {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41.6px;
+}
+
+@mixin increased-in-font {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 400;

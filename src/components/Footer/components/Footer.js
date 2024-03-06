@@ -65,7 +65,7 @@ const Footer = () => {
           <div className={styles.RightPart}>
           {footerLinks.map((section, index) => (
             <div className={styles.Pages} key={index}>
-              <p className={index === 0 ? styles.First : ''}>{section.title}</p>
+              <p className={styles.First}>{section.title}</p>
               {section.links.map((link, idx) => (
                 <p key={idx}><a href={link.url}>{link.label}</a></p>
               ))}
@@ -85,13 +85,13 @@ const Footer = () => {
           </div>
           <div className={styles.SVGConatiner}>
             <div className={styles.SocialContainer}>
-              <a href="link-to-x" className={styles.LinkToSocial}>
-                <img src="/icons/FooterSVG/footer1.svg" alt="XSVG" width={24} height={24} />
+              <a href="link-to-linkedin" className={styles.LinkToSocial}>
+                <img src="/icons/FooterSVG/footer2.svg" alt="LinkedinSVG" width={24} height={24} />
               </a>
             </div>
             <div className={styles.SocialContainer}>
-              <a href="link-to-linkedin" className={styles.LinkToSocial}>
-                <img src="/icons/FooterSVG/footer2.svg" alt="LinkedinSVG" width={24} height={24} />
+              <a href="link-to-x" className={styles.LinkToSocial}>
+                <img src="/icons/FooterSVG/footer1.svg" alt="XSVG" width={24} height={24} />
               </a>
             </div>
             <div className={styles.SocialContainer}>

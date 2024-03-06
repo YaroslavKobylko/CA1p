@@ -85,7 +85,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   height: 28px;
-  font-weight: bold;
+  font-weight: medium;
 }
 
 .NoMeetingSubtitle{
@@ -104,6 +104,7 @@
   align-items: center;
   justify-content: left;
   margin-top: 34px;
+  color: $speedcolor;
 }
 
 .TryForContainer{
@@ -111,18 +112,18 @@
   height: 16px;
   width: 110px;
   margin-left: 16px;
-  margin-bottom: 12px;
 }
 
 .TryForContainer p{
   margin: 0px;
   height: 16px;
   width: 86px;
+  @include fast-try-to-font;
+  font-size: 15px;
 }
 
 .TryForContainer img{
   margin-left: 8px;
-  margin-top: 6px;
 }
 
 .straightMainContainer {

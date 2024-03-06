@@ -37,7 +37,7 @@
   height: 96px;
   color: $page-color;
   text-align: center;
-  font-size: 42px;
+  font-size: 40px;
   @include faster-than-font;
   margin-top: 0px;
   margin-bottom: 24px;
@@ -50,7 +50,7 @@
   color: $page-color;
   text-align: center;
   font-size: 18px;
-  @include building-subtitle;
+  @include morbi-font;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -130,6 +130,7 @@
   text-align: center;
   width: 87px;
   height: 24px;
+  font-size: 15px;
 }
 
 .TryForContainer{
@@ -148,4 +149,9 @@
   position: absolute;
   margin-left: 1035px;
   margin-bottom: 830px;
+}
+
+.TryForLink{
+  @include try-for-free-font;
+  font-size: 15px;
 }
